@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown_dark_bg"
+    tools:context=".ui.splash.SplashFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/splash_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:fontFamily="@font/playfair_display_bold"
+        android:text="@string/splash_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_23ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/splash_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/splash_description"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/splash_description"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@id/music_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="@dimen/_10sdp"
+        />
+
+    <ImageView
+        android:id="@+id/music_id"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:src="@drawable/rubob_image"
+        app:layout_constraintBottom_toTopOf="@id/author_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:alpha="0"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:fontFamily="@font/source_sans_pro_regular"
+        android:text="@string/splash_author_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15ssp"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

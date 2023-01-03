@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rubob_nav"
+    android:label="Cholg’u tarixi,sozlanishi va tuzilishi"
+    app:startDestination="@id/splashFragment">
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.splash.SplashFragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.main.MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_historyFragment"
+            app:destination="@id/historyFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_usageFragment"
+            app:destination="@id/usageFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_rulesFragment"
+            app:destination="@id/rulesFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_mediatorFragment"
+            app:destination="@id/mediatorFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_soundsLocationFragment"
+            app:destination="@id/soundsLocationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_gammasFragment"
+            app:destination="@id/gammasFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_mainFragment_to_songsFragment"
+            app:destination="@id/songsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_mainFragment_to_authorFragment"
+            app:destination="@id/authorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.history.HistoryFragment"
+        android:label="Cholg’u tarixi,sozlanishi va tuzilishi"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/usageFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.usage.UsageFragment"
+        android:label="Ilovadan foydalanish  qoidalari"
+        tools:layout="@layout/fragment_usage" />
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.rules.RulesFragment"
+        android:label="Ijro qilish qoidalari"
+        tools:layout="@layout/fragment_rules" />
+    <fragment
+        android:id="@+id/mediatorFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.mediator.MediatorFragment"
+        android:label="Mezrob (Mediator) ni ishlatish"
+        tools:layout="@layout/fragment_mediator" />
+    <fragment
+        android:id="@+id/soundsLocationFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.location.SoundsLocationFragment"
+        android:label="fragment_sounds_location"
+        tools:layout="@layout/fragment_sounds_location" />
+    <fragment
+        android:id="@+id/gammasFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.lessons.gammas.GammasFragment"
+        android:label="Ijro mahoratini oshiruvchi mashqlar"
+        tools:layout="@layout/fragment_gammas">
+        <action
+            android:id="@+id/action_gammasFragment_to_helpersFragment"
+            app:destination="@id/helpersFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/helpersFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.lessons.helpers.HelpersFragment"
+        android:label="fragment_helpers"
+        tools:layout="@layout/fragment_helpers">
+        <argument
+            android:name="gammas_num"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/songsFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.music.songs.SongsFragment"
+        android:label="Kuy ijro qilish"
+        tools:layout="@layout/fragment_songs">
+        <action
+            android:id="@+id/action_songsFragment_to_paxtaoyFragment"
+            app:destination="@id/paxtaoyFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_songsFragment_to_dolonchaFragment"
+            app:destination="@id/dolonchaFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_songsFragment_to_andijonPolkaFragment"
+            app:destination="@id/andijonPolkaFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_songsFragment_to_qashqarchaFragment"
+            app:destination="@id/qashqarchaFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <action
+            android:id="@+id/action_songsFragment_to_yallanmaYorimFragment"
+            app:destination="@id/yallanmaYorimFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paxtaoyFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.music.paxtaoy.PaxtaoyFragment"
+        android:label="Paxtaoy"
+        tools:layout="@layout/fragment_paxtaoy" />
+    <fragment
+        android:id="@+id/authorFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.author.AuthorFragment"
+        android:label="Muallif haqida"
+        tools:layout="@layout/fragment_author" />
+    <fragment
+        android:id="@+id/dolonchaFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.music.doloncha.DolonchaFragment"
+        android:label="fragment_doloncha"
+        tools:layout="@layout/fragment_doloncha" />
+    <fragment
+        android:id="@+id/andijonPolkaFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.music.andijon_polka.AndijonPolkaFragment"
+        android:label="@string/andijon_polka"
+        tools:layout="@layout/fragment_andijon_polka" />
+    <fragment
+        android:id="@+id/qashqarchaFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.music.qashqarcha.QashqarchaFragment"
+        android:label="Qashqarcha"
+        tools:layout="@layout/fragment_qashqarcha" />
+    <fragment
+        android:id="@+id/yallanmaYorimFragment"
+        android:name="com.raqamlidunyo.qashqarrubob.ui.music.yallanma_yorim.YallanmaYorimFragment"
+        android:label="fragment_yallanma_yorim"
+        tools:layout="@layout/fragment_yallanma_yorim" />
+</navigation>

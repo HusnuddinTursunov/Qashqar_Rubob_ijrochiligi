@@ -1,0 +1,2576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rubob_bg_2"
+    tools:context=".ui.music.paxtaoy.PaxtaoyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_paxtaoy"
+        android:layout_width="@dimen/_190sdp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_paxtaoy_1"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view_line_1_paxtaoy_1"
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_120sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_1"
+                tools:layout_editor_absoluteY="26dp" />
+
+            <View
+                android:id="@+id/view_line_2_paxtaoy_1"
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_1"
+                app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_1"
+                tools:layout_editor_absoluteY="26dp" />
+
+            <View
+                android:id="@+id/view_line_3_paxtaoy_1"
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_1"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_1"
+                tools:layout_editor_absoluteY="26dp" />
+
+            <View
+                android:id="@+id/view_line_4_paxtaoy_1"
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_1"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_1" />
+
+            <View
+                android:id="@+id/view_line_5_paxtaoy_1"
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_1"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_4_paxtaoy_1" />
+
+            <ImageView
+                android:id="@+id/start_not_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:rotation="90"
+                android:src="@drawable/icon_gamma"
+                app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@id/view_line_5_paxtaoy_1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/hash_tag_1_id_paxtaoy_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-20dp"
+                android:rotation="90"
+                android:src="@drawable/icon_hash_tag"
+                app:layout_constraintEnd_toEndOf="@id/view_line_1_paxtaoy_1"
+                app:layout_constraintStart_toStartOf="@id/view_line_1_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/start_not_id"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <View
+                android:id="@+id/view_line_6_paxtaoy_1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_4sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/hash_tag_1_id_paxtaoy_1" />
+
+            <View
+                android:id="@+id/view_line_7_paxtaoy_1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/view_line_6_paxtaoy_1" />
+
+            <ImageView
+                android:id="@+id/dot_1_paxtaoy_1"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/ring_shape"
+                android:backgroundTint="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@id/view_line_4_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/view_line_7_paxtaoy_1"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/dot_2_paxtaoy_1"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/ring_shape"
+                android:backgroundTint="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/view_line_7_paxtaoy_1"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/icon_two_paxtaoy_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:rotation="90"
+                android:src="@drawable/icon_two"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/dot_2_paxtaoy_1"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/icon_four_paxtaoy_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:rotation="90"
+                android:src="@drawable/icon_four"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_3_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@id/view_line_5_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/dot_2_paxtaoy_1"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_re_1_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_1"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/_90sdp"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_f"
+                app:tint="@color/white"
+                android:rotation="90"
+                android:layout_marginEnd="@dimen/_15sdp"
+                app:layout_constraintEnd_toStartOf="@+id/paxtaoy_1_re_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_re_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_re_1_aktava"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_re_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_re_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_re_1_aktava"
+                android:text="@string/_1"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/down_not"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_re_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_re_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_re_1_aktava"
+                android:rotation="90"
+                android:layout_marginStart="@dimen/_30sdp"
+                />
+
+            <View
+                android:id="@+id/paxtaoy_1_re_1_to_re_2"
+                android:layout_width="@dimen/_5sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginEnd="-3dp"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/_106sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_re_1_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_5_paxtaoy_1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_re_2_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_re_1_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/down_not"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_re_2_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_re_2_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_re_2_aktava"
+                android:rotation="90"
+                android:layout_marginStart="@dimen/_30sdp"
+                />
+
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_sol_1_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_re_2_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_sol_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_sol_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_1_aktava"
+                android:text="@string/_4"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/down_not"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_sol_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_sol_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_1_aktava"
+                android:rotation="90"
+                android:layout_marginStart="@dimen/_30sdp"
+                />
+
+            <View
+                android:id="@+id/paxtaoy_1_sol_1_to_sol_2"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:background="@color/white"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/_156sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_1_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_sol_1_aktava" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_sol_2_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_sol_1_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/down_not"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_sol_2_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_sol_2_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_2_aktava"
+                android:rotation="90"
+                android:layout_marginStart="@dimen/_30sdp"
+                />
+
+            <View
+                android:id="@+id/view_line_8_paxtaoy_1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_2sdp"
+                android:background="@color/white"
+                android:layout_marginTop="-5dp"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_sol_2_aktava" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_fa_1_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/view_line_8_paxtaoy_1"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_fa_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_fa_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_fa_1_aktava"
+                android:text="@string/_3"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/down_not"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_fa_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_fa_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_fa_1_aktava"
+                android:rotation="90"
+                android:layout_marginStart="@dimen/_30sdp"
+                />
+
+            <View
+                android:id="@+id/paxtaoy_1_fa_1_to_fa_2"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_51sdp"
+                android:layout_marginEnd="-3dp"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/_205sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_fa_2_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_4_paxtaoy_1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_fa_2_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_fa_1_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/down_not"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_fa_2_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_fa_2_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_fa_2_aktava"
+                android:rotation="90"
+                android:layout_marginStart="@dimen/_30sdp"
+                />
+
+            <View
+                android:id="@+id/paxtaoy_1_fa_2_to_sol_3"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_25sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginEnd="-3dp"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/_229sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_fa_2_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_1" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_sol_3_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_fa_2_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_sol_3_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_sol_3_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_3_aktava"
+                android:text="@string/_4"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/up_not"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_sol_3_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_sol_3_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_3_aktava"
+                android:rotation="90"
+                android:layout_marginStart="@dimen/_30sdp"
+                />
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_mi_1_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                android:layout_marginTop="-10dp"
+                app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_sol_3_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_mi_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_mi_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_mi_1_aktava"
+                android:text="@string/_1"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <View
+                android:id="@+id/view_line_9_paxtaoy_1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_2sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_mi_1_aktava" />
+
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_fa_3_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/view_line_9_paxtaoy_1"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_fa_3_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_fa_3_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_fa_3_aktava"
+                android:text="@string/_1"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <View
+                android:id="@+id/paxtaoy_1_fa_3_to_sol_4"
+                android:layout_width="@dimen/_5sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:layout_marginEnd="-4dp"
+                android:background="@color/white"
+                app:layout_constraintTop_toTopOf="parent"
+                android:rotation="-5"
+                android:layout_marginTop="@dimen/_298sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_fa_3_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_4_paxtaoy_1" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_sol_4_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_fa_3_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_sol_4_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_sol_4_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_4_aktava"
+                android:text="@string/_2"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_lya_1_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="90"
+                android:src="@drawable/icon_gamma2"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_sol_4_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_lya_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_lya_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_lya_1_aktava"
+                android:text="@string/_2"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <View
+                android:id="@+id/paxtaoy_1_lya_1_to_lya_2"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_27sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@+id/view_line_4_paxtaoy_1"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginTop="@dimen/_340sdp"
+                android:layout_marginStart="@dimen/_3sdp"
+                />
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_lya_2_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="90"
+                android:src="@drawable/icon_gamma2"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_lya_1_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <View
+                android:id="@+id/view_line_10_paxtaoy_1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_2sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_lya_2_aktava" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_lya_3_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="90"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:src="@drawable/icon_gamma2"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/view_line_10_paxtaoy_1"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <View
+                android:id="@+id/paxtaoy_1_lya_3_to_si_1"
+                android:layout_width="@dimen/_3sdp"
+                android:layout_height="0dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/_396sdp"
+                android:layout_marginEnd="-5dp"
+                android:layout_marginBottom="@dimen/_18sdp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_si_1_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_4_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_lya_3_aktava" />
+
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_sol_5_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_lya_3_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_sol_5_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_sol_5_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_5_aktava"
+                android:text="@string/_1"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+
+            <View
+                android:id="@+id/paxtaoy_1_sol_5_to_si_1"
+                android:layout_width="@dimen/_3sdp"
+                android:layout_height="@dimen/_26sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/_431sdp"
+                android:layout_marginEnd="-3dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_5_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_sol_5_aktava" />
+
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_si_1_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-2dp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="90"
+                android:scaleX="1.2"
+                android:scaleY="1.4"
+                android:src="@drawable/icon_gamma4"
+                app:layout_constraintStart_toEndOf="@id/view_line_2_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_sol_5_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_1_si_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_si_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_si_1_aktava"
+                android:text="@string/_4"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <ImageView
+                android:id="@+id/paxtaoy_1_lya_4_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_gamma2"
+                app:tint="@color/white"
+                android:rotation="90"
+                android:scaleY="1.1"
+                android:scaleX="1.1"
+                android:layout_marginStart="-4dp"
+                app:layout_constraintStart_toEndOf="@id/view_line_2_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_si_1_aktava"
+                tools:ignore="ContentDescription" />
+
+
+            <ImageView
+                android:id="@+id/dot_3_paxtaoy_1"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_marginTop="-5dp"
+                android:background="@drawable/ring_shape"
+                android:backgroundTint="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@id/view_line_4_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_lya_4_aktava"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/dot_4_paxtaoy_1"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_marginTop="-5dp"
+                android:background="@drawable/ring_shape"
+                android:backgroundTint="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_lya_4_aktava"
+                tools:ignore="ContentDescription" />
+
+
+            <View
+                android:id="@+id/view_line_11_paxtaoy_1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/dot_4_paxtaoy_1" />
+
+
+            <View
+                android:id="@+id/view_line_12_paxtaoy_1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_4sdp"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
+                app:layout_constraintTop_toBottomOf="@+id/view_line_11_paxtaoy_1" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_paxtaoy_2"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view_line_1_paxtaoy_2"
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_120sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_2"
+                tools:layout_editor_absoluteY="26dp" />
+
+            <View
+                android:id="@+id/view_line_2_paxtaoy_2"
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_2"
+                app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_2"
+                tools:layout_editor_absoluteY="26dp" />
+
+            <View
+                android:id="@+id/view_line_3_paxtaoy_2"
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_2"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_2"
+                tools:layout_editor_absoluteY="26dp" />
+
+            <View
+                android:id="@+id/view_line_4_paxtaoy_2"
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_2"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_2" />
+
+            <View
+                android:id="@+id/view_line_5_paxtaoy_2"
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_2"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_4_paxtaoy_2" />
+
+            <ImageView
+                android:id="@+id/start_not_id_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:rotation="90"
+                android:src="@drawable/icon_gamma"
+                app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_2"
+                app:layout_constraintStart_toEndOf="@id/view_line_5_paxtaoy_2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/hash_tag_1_id_paxtaoy_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-20dp"
+                android:rotation="90"
+                android:src="@drawable/icon_hash_tag"
+                app:layout_constraintEnd_toEndOf="@id/view_line_1_paxtaoy_2"
+                app:layout_constraintStart_toStartOf="@id/view_line_1_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/start_not_id_1"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <View
+                android:id="@+id/view_line_6_paxtaoy_2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_4sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/hash_tag_1_id_paxtaoy_2" />
+
+            <View
+                android:id="@+id/view_line_7_paxtaoy_2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/view_line_6_paxtaoy_2" />
+
+            <ImageView
+                android:id="@+id/dot_1_paxtaoy_2"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/ring_shape"
+                android:backgroundTint="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintStart_toEndOf="@id/view_line_4_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/view_line_7_paxtaoy_2"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/dot_2_paxtaoy_2"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/ring_shape"
+                android:backgroundTint="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_2"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/view_line_7_paxtaoy_2"
+                tools:ignore="ContentDescription" />
+
+
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_re_1_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="90"
+                android:src="@drawable/icon_gamma4"
+                app:layout_constraintStart_toEndOf="@id/view_line_2_paxtaoy_2"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/_70sdp"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_re_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_re_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_re_1_aktava"
+                android:text="@string/_4"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+
+            <View
+                android:id="@+id/paxtaoy_2_re_1_to_re_2"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_marginEnd="-5dp"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/_90sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_re_1_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_re_2_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="90"
+                android:src="@drawable/icon_gamma4"
+                app:layout_constraintStart_toEndOf="@id/view_line_2_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_re_1_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_sol_1_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="270"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_re_2_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_sol_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_sol_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_sol_1_aktava"
+                android:text="@string/_1"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <View
+                android:id="@+id/paxtaoy_2_sol_1_to_sol_2"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:background="@color/white"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/_132sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_sol_1_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_sol_1_aktava" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_sol_2_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_sol_1_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <View
+                android:id="@+id/view_line_8_paxtaoy_2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_2sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_sol_2_aktava" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_fa_1_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:rotation="90"
+                android:src="@drawable/icon_gamma2"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/view_line_8_paxtaoy_2"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_fa_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_fa_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_fa_1_aktava"
+                android:text="@string/_3"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <View
+                android:id="@+id/paxtaoy_2_fa_1_to_fa_2"
+                android:layout_width="@dimen/_3sdp"
+                android:layout_height="@dimen/_54sdp"
+                android:layout_marginEnd="-3dp"
+                android:background="@color/white"
+                android:rotation="3"
+                android:layout_marginTop="@dimen/_185sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_fa_2_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_4_paxtaoy_2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_fa_2_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:rotation="90"
+                android:src="@drawable/icon_gamma2"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_fa_1_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <View
+                android:id="@+id/paxtaoy_2_fa_2_to_sol_3"
+                android:layout_width="@dimen/_3sdp"
+                android:layout_height="@dimen/_27sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginEnd="-3dp"
+                android:background="@color/white"
+                android:rotation="3"
+                android:layout_marginTop="@dimen/_212sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_fa_2_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_2" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_sol_3_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_fa_2_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_sol_3_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_sol_3_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_sol_3_aktava"
+                android:text="@string/_1"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_mi_1_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                android:layout_marginTop="-10dp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_sol_3_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_mi_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_mi_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_mi_1_aktava"
+                android:text="@string/_3"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+
+            <View
+                android:id="@+id/view_line_9_paxtaoy_2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_2sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_mi_1_aktava" />
+
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_fa_3_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/view_line_9_paxtaoy_2"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_fa_3_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_fa_3_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_fa_3_aktava"
+                android:text="@string/_1"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <View
+                android:id="@+id/paxtaoy_2_fa_3_to_sol_4"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:layout_marginEnd="-4dp"
+                android:background="@color/white"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/_283sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_fa_3_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_5_paxtaoy_2" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_sol_4_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_fa_3_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_lya_1_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="90"
+                android:src="@drawable/icon_gamma2"
+                app:layout_constraintStart_toEndOf="@id/view_line_2_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_sol_4_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_lya_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_lya_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_lya_1_aktava"
+                android:text="@string/_4"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <View
+                android:id="@+id/paxtaoy_2_lya_1_to_lya_2"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintStart_toEndOf="@+id/view_line_4_paxtaoy_2"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginEnd="-1dp"
+                android:rotation="3"
+                android:layout_marginTop="@dimen/_324sdp"
+                android:layout_marginStart="@dimen/_3sdp"
+                />
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_lya_2_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_lya_1_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <View
+                android:id="@+id/view_line_10_paxtaoy_2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_2sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_lya_2_aktava" />
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_lya_3_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintStart_toEndOf="@id/view_line_4_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/view_line_10_paxtaoy_2"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_lya_3_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_lya_3_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_lya_3_aktava"
+                android:text="@string/_1"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/down_not"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_lya_3_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_lya_3_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_lya_3_aktava"
+                android:rotation="90"
+                android:layout_marginStart="@dimen/_30sdp"
+                />
+
+            <View
+                android:id="@+id/paxtaoy_2_lya_3_to_si_1"
+                android:layout_width="@dimen/_3sdp"
+                android:layout_height="@dimen/_76sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/_380sdp"
+                android:layout_marginEnd="-4dp"
+                android:layout_marginBottom="@dimen/_18sdp"
+                android:background="@color/white"
+                android:rotation="1"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_lya_4_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_5_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_lya_3_aktava" />
+
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_sol_5_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:rotation="270"
+                android:scaleX="1.2"
+                android:scaleY="1.2"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_lya_3_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_sol_5_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_sol_5_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_sol_5_aktava"
+                android:text="@string/_2"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/up_not"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_sol_5_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_sol_5_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_sol_5_aktava"
+                android:rotation="90"
+                android:layout_marginStart="@dimen/_30sdp"
+                />
+
+
+            <View
+                android:id="@+id/paxtaoy_2_sol_5_to_si_1"
+                android:layout_width="@dimen/_3sdp"
+                android:layout_height="@dimen/_76sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/_380sdp"
+                android:layout_marginEnd="-4dp"
+                android:layout_marginBottom="@dimen/_18sdp"
+                android:background="@color/white"
+                android:rotation="1"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_lya_4_aktava"
+                app:layout_constraintEnd_toStartOf="@id/view_line_4_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_lya_3_aktava"  />
+
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_si_1_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-4dp"
+                android:rotation="270"
+                android:src="@drawable/icon_gamma3"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_sol_5_aktava"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_si_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_si_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_si_1_aktava"
+                android:text="@string/_1"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/down_not"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_si_1_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_si_1_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_si_1_aktava"
+                android:rotation="90"
+                android:layout_marginStart="@dimen/_30sdp"
+                />
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_lya_4_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_gamma3"
+                app:tint="@color/white"
+                android:rotation="270"
+                app:layout_constraintStart_toEndOf="@id/view_line_4_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_si_1_aktava"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_lya_4_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_lya_4_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_lya_4_aktava"
+                android:text="@string/_3"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/up_not"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_lya_4_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_lya_4_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_lya_4_aktava"
+                android:rotation="90"
+                android:layout_marginStart="@dimen/_30sdp"
+                />
+
+            <ImageView
+                android:id="@+id/paxtaoy_2_re_4_aktava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_gamma3"
+                app:tint="@color/white"
+                android:rotation="270"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginTop="-5dp"
+                app:layout_constraintStart_toEndOf="@id/view_line_5_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_lya_4_aktava"
+                tools:ignore="ContentDescription" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/paxtaoy_2_re_4_aktava"
+                app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_re_4_aktava"
+                app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_re_4_aktava"
+                android:text="@string/_1"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/times_new_roman"
+                android:rotation="90"
+                android:textSize="@dimen/_10ssp"
+                />
+
+
+            <ImageView
+                android:id="@+id/dot_3_paxtaoy_2"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_marginTop="-5dp"
+                android:background="@drawable/ring_shape"
+                android:backgroundTint="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintStart_toEndOf="@id/view_line_4_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_re_4_aktava"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/dot_4_paxtaoy_2"
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_marginTop="-5dp"
+                android:background="@drawable/ring_shape"
+                android:backgroundTint="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_2"
+                app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_re_4_aktava"
+                tools:ignore="ContentDescription" />
+
+
+            <View
+                android:id="@+id/view_line_11_paxtaoy_2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/dot_4_paxtaoy_2" />
+
+
+            <View
+                android:id="@+id/view_line_12_paxtaoy_2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_4sdp"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
+                app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
+                app:layout_constraintTop_toBottomOf="@+id/view_line_11_paxtaoy_2" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/paxtaoy"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:rotation="90"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:fontFamily="@font/playfair_display"
+            android:textSize="@dimen/_20ssp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/allegretto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/allegretto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/white"
+            android:rotation="90"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:fontFamily="@font/playfair_display"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:textSize="@dimen/_15ssp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fattoh_nazarov_musiqasi"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/_300sdp"
+            android:textColor="@color/white"
+            android:rotation="90"
+            android:layout_marginEnd="-30dp"
+            android:fontFamily="@font/playfair_display"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/allegretto"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginBottom="@dimen/_70sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView_rubob_tors"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_480sdp"
+        android:src="@drawable/rubob"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cl_paxtaoy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/view_line_rubob_1"
+        android:layout_width="@dimen/_1sdp"
+        android:layout_height="@dimen/_412sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_6sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
+        app:layout_constraintEnd_toStartOf="@+id/view_line_rubob_2"
+        app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />
+
+    <View
+        android:id="@+id/view_line_rubob_2"
+        android:layout_width="@dimen/_1sdp"
+        android:layout_height="@dimen/_412sdp"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_rubob_tors"
+        app:layout_constraintStart_toStartOf="@+id/imageView_rubob_tors"
+        app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />
+
+    <View
+        android:id="@+id/view_line_rubob_3"
+        android:layout_width="@dimen/_1sdp"
+        android:layout_height="@dimen/_412sdp"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
+        app:layout_constraintStart_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />
+
+
+    <ImageView
+        android:id="@+id/lya_3_lya_2_diyez"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_lya_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_lya_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_sol_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_sol_2_diyez"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_sol_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_sol_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_fa_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_fa_2_diyez"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_fa_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_fa_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_mi_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_mi_2"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_re_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_re_2_diyez"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_re_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_re_2"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_do_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_do_2_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_do_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_do_2"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_si_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_si_2"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_lya_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_lya_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_lya_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_lya_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_sol_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_sol_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_sol_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_sol_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_fa_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_fa_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_fa_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_fa_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_mi_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_mi_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_re_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_re_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_re_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_re_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_do_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_do_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_13sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_do_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_do_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_si_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_si_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_si_1_bimol"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_si_1_bimol"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/view_line_rubob_3"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+
+    ///
+    <ImageView
+        android:id="@+id/mi_2_mi_2_diyez"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_mi_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_mi_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_re_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_re_2_diyez"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_re_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_re_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_do_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_do_2_diyez"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_do_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_do_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_si_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_si_2"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_lya_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_lya_2_diyez"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_lya_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_lya_2"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_sol_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_sol_2_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_sol_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_sol_2"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_fa_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_fa_2_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_fa_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_fa_2"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_mi_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_mi_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_re_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_re_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_re_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_re_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_do_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_do_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_do_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_do_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_si_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_si_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_lya_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_lya_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_lya_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_lya_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_sol_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_sol_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_13sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_sol_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_sol_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_fa_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_fa_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_fa_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_fa_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/view_line_rubob_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+
+
+    <ImageView
+        android:id="@+id/lya_1_lya_2_diyez"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_lya_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_lya_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_sol_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_sol_2_diyez"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_sol_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_sol_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_fa_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_fa_2_diyez"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_fa_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_fa_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_mi_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_mi_2"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_re_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_re_2_diyez"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_re_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_re_2"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_do_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_do_2_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_do_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_do_2"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_si_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_si_2"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_lya_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_lya_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_lya_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_lya_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_sol_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_sol_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_sol_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_sol_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_fa_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_fa_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_fa_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_fa_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_mi_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_mi_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_re_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_re_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_re_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_re_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_do_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_do_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_13sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_do_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_do_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_si_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_si_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_si_1_bimol"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_si_1_bimol"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/view_line_rubob_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mtb_play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-20dp"
+        android:backgroundTint="@color/brown_light_bg"
+        android:rotation="90"
+        android:textAllCaps="false"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:text="@string/play"
+        app:icon="@drawable/icon_play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TooManyViews" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

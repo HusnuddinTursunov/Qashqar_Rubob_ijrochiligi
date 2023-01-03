@@ -1,0 +1,96 @@
+package com.raqamlidunyo.qashqarrubob.ui.music.yallanma_yorim.util
+
+import com.raqamlidunyo.qashqarrubob.R
+import com.raqamlidunyo.qashqarrubob.ui.music.yallanma_yorim.model.YallanmaYorim
+
+object YallanmaYorimUtil {
+
+    fun yallanma_yorim_List(): List<YallanmaYorim> {
+        val list = ArrayList<YallanmaYorim>()
+
+        list.add(YallanmaYorim(R.raw.miminor5, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 250))
+        list.add(YallanmaYorim(R.raw.miminor6, 250))
+        list.add(YallanmaYorim(R.raw.miminor7, 500))
+        list.add(YallanmaYorim(R.raw.miminor7, 500))
+        list.add(YallanmaYorim(R.raw.miminor6, 500))
+        list.add(YallanmaYorim(R.raw.miminor6, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 1000))
+        list.add(YallanmaYorim(R.raw.miminor6, 500))
+        list.add(YallanmaYorim(R.raw.miminor6, 250))
+        list.add(YallanmaYorim(R.raw.miminor5, 250))
+        list.add(YallanmaYorim(R.raw.miminor4, 500))
+        list.add(YallanmaYorim(R.raw.miminor4, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 1000))
+
+
+        list.add(YallanmaYorim(R.raw.miminor5, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 250))
+        list.add(YallanmaYorim(R.raw.miminor6, 250))
+        list.add(YallanmaYorim(R.raw.miminor7, 500))
+        list.add(YallanmaYorim(R.raw.miminor7, 500))
+        list.add(YallanmaYorim(R.raw.miminor7, 500))
+        list.add(YallanmaYorim(R.raw.miminor7, 500))
+        list.add(YallanmaYorim(R.raw.miminor7, 1000))
+        list.add(YallanmaYorim(R.raw.miminor8, 500))
+        list.add(YallanmaYorim(R.raw.miminor8, 250))
+        list.add(YallanmaYorim(R.raw.miminor8, 250))
+        list.add(YallanmaYorim(R.raw.miminor8, 500))
+        list.add(YallanmaYorim(R.raw.miminor8, 500))
+        list.add(YallanmaYorim(R.raw.miminor7, 500))
+        list.add(YallanmaYorim(R.raw.miminor7, 250))
+        list.add(YallanmaYorim(R.raw.miminor6, 250))
+        list.add(YallanmaYorim(R.raw.miminor5, 1000))
+
+        list.add(YallanmaYorim(R.raw.miminor8, 500))
+        list.add(YallanmaYorim(R.raw.miminor8, 250))
+        list.add(YallanmaYorim(R.raw.miminor8, 250))
+        list.add(YallanmaYorim(R.raw.miminor8, 500))
+        list.add(YallanmaYorim(R.raw.miminor8, 500))
+        list.add(YallanmaYorim(R.raw.miminor7, 250))
+        list.add(YallanmaYorim(R.raw.miminor8, 250))
+        list.add(YallanmaYorim(R.raw.miminor7, 250))
+        list.add(YallanmaYorim(R.raw.miminor6, 250))
+        list.add(YallanmaYorim(R.raw.miminor5, 1000))
+        list.add(YallanmaYorim(R.raw.miminor5, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 250))
+        list.add(YallanmaYorim(R.raw.miminor6, 250))
+        list.add(YallanmaYorim(R.raw.miminor7, 500))
+        list.add(YallanmaYorim(R.raw.miminor7, 500))
+        list.add(YallanmaYorim(R.raw.miminor6, 500))
+        list.add(YallanmaYorim(R.raw.miminor6, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 1000))
+        list.add(YallanmaYorim(R.raw.miminor6, 500))
+        list.add(YallanmaYorim(R.raw.miminor6, 250))
+        list.add(YallanmaYorim(R.raw.miminor5, 250))
+        list.add(YallanmaYorim(R.raw.miminor4, 500))
+        list.add(YallanmaYorim(R.raw.miminor4, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 1000))
+
+        list.add(YallanmaYorim(R.raw.miminor5, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 250))
+        list.add(YallanmaYorim(R.raw.miminor6, 250))
+        list.add(YallanmaYorim(R.raw.miminor7, 500))
+        list.add(YallanmaYorim(R.raw.miminor7, 500))
+        list.add(YallanmaYorim(R.raw.miminor6, 500))
+        list.add(YallanmaYorim(R.raw.miminor6, 250))
+        list.add(YallanmaYorim(R.raw.miminor7, 250))
+        list.add(YallanmaYorim(R.raw.miminor5, 1000))
+        list.add(YallanmaYorim(R.raw.miminor6, 500))
+        list.add(YallanmaYorim(R.raw.miminor6, 250))
+        list.add(YallanmaYorim(R.raw.miminor5, 250))
+        list.add(YallanmaYorim(R.raw.miminor4, 250))
+        list.add(YallanmaYorim(R.raw.miminor5, 250))
+        list.add(YallanmaYorim(R.raw.miminor4, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 500))
+        list.add(YallanmaYorim(R.raw.miminor5, 1000))
+
+        return list
+    }
+
+}

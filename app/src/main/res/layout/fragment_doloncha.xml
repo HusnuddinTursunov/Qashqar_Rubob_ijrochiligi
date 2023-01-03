@@ -1,0 +1,3615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rubob_bg_2"
+    tools:context=".ui.music.doloncha.DolonchaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_doloncha"
+        android:layout_width="@dimen/_190sdp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nested_scroll_doloncha_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_doloncha_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <View
+                    android:id="@+id/view_line_1_doloncha_1"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_120sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteY="26dp" />
+
+                <View
+                    android:id="@+id/view_line_2_doloncha_1"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_1"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_1_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteY="26dp" />
+
+                <View
+                    android:id="@+id/view_line_3_doloncha_1"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_1"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteY="26dp" />
+
+                <View
+                    android:id="@+id/view_line_4_doloncha_1"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_1"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view_line_5_doloncha_1"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_1"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/start_not_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:rotation="90"
+                    android:src="@drawable/icon_gamma"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_1_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@id/view_line_5_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/hash_tag_1_id_doloncha_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-25dp"
+                    android:rotation="90"
+                    android:src="@drawable/icon_hash_tag"
+                    app:layout_constraintEnd_toEndOf="@id/view_line_1_doloncha_1"
+                    app:layout_constraintStart_toStartOf="@id/view_line_1_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@id/start_not_id"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <ImageView
+                    android:id="@+id/hash_tag_2_id_doloncha_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:rotation="90"
+                    android:src="@drawable/icon_hash_tag"
+                    app:layout_constraintStart_toStartOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@id/hash_tag_1_id_doloncha_1"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/hash_tag_3_id_doloncha_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:rotation="90"
+                    android:src="@drawable/icon_hash_tag"
+                    app:layout_constraintStart_toStartOf="@id/view_line_1_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@id/hash_tag_2_id_doloncha_1"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <View
+                    android:id="@+id/view_line_6_doloncha_1"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/hash_tag_3_id_doloncha_1" />
+
+                <View
+                    android:id="@+id/view_line_7_doloncha_1"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/view_line_6_doloncha_1" />
+
+                <ImageView
+                    android:id="@+id/dot_1_doloncha_1"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/ring_shape"
+                    android:backgroundTint="@color/white"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@id/view_line_4_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/view_line_7_doloncha_1"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/dot_2_doloncha_1"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/ring_shape"
+                    android:backgroundTint="@color/white"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/view_line_7_doloncha_1"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/icon_two_doloncha_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:rotation="90"
+                    android:src="@drawable/icon_two"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/dot_2_doloncha_1"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/icon_four_doloncha_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:rotation="90"
+                    android:src="@drawable/icon_four"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_3_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@id/view_line_5_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/dot_2_doloncha_1"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_1_lya_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_95sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:rotation="90"
+                    android:src="@drawable/down_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_lya_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_lya_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_lya_1"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_30sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_lya_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_lya_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_lya_1" />
+
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_46sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_111sdp"
+                    android:background="@android:color/white"
+                    android:rotation="-6"
+                    app:layout_constraintStart_toEndOf="@id/view_line_1_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_lya_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_120sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:rotation="90"
+                    android:src="@drawable/down_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_lya_2"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_lya_2"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_lya_2"
+                    tools:ignore="ContentDescription" />
+
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_136sdp"
+                    android:background="@android:color/white"
+                    android:rotation="-6"
+                    app:layout_constraintStart_toEndOf="@id/view_line_2_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_si_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_139sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:rotation="90"
+                    android:src="@drawable/up_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_si_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_si_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_si_1"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_30sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_si_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_si_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_si_1" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_do_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_160sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:rotation="90"
+                    android:src="@drawable/down_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_do_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_do_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_do_1"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_40sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_4"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_do_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_do_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_do_1" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_44sdp"
+                    android:layout_marginTop="@dimen/_168sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:background="@android:color/white"
+                    android:rotation="5"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_5_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_do_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_185sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:rotation="90"
+                    android:src="@drawable/down_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_do_2"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_do_2"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_do_2"
+                    tools:ignore="ContentDescription" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_1_si_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_204sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_1_do_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:rotation="90"
+                    android:src="@drawable/up_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_si_2"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_si_2"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_si_2"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_40sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_si_2"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_si_2"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_si_2" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_19sdp"
+                    android:layout_marginTop="@dimen/_193sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@android:color/white"
+                    android:rotation="5"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <View
+                    android:id="@+id/view_line_8_doloncha_1"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_1_si_2" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_lya_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_225sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:rotation="90"
+                    android:src="@drawable/down_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_lya_3"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_lya_3"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_lya_3"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_30sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_lya_3"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_lya_3"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_lya_3" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_241sdp"
+                    android:background="@android:color/white"
+                    app:layout_constraintStart_toEndOf="@id/view_line_1_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_lya_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_246sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:rotation="90"
+                    android:src="@drawable/down_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_lya_4"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_lya_4"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_lya_4"
+                    tools:ignore="ContentDescription" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_1_mi_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_265sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:rotation="90"
+                    android:src="@drawable/down_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_mi_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_mi_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_mi_1"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_30sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_4"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_mi_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_mi_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_mi_1" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_41sdp"
+                    android:layout_marginTop="@dimen/_273sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@android:color/white"
+                    android:rotation="5"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_mi_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_288sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:rotation="90"
+                    android:src="@drawable/down_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_mi_2"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_mi_2"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_mi_2"
+                    tools:ignore="ContentDescription" />
+
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:layout_marginTop="@dimen/_296sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@android:color/white"
+                    android:rotation="5"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_re_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_305sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:rotation="90"
+                    android:src="@drawable/up_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_re_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_re_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_re_1"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_35sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_re_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_re_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_re_1" />
+
+
+                <View
+                    android:id="@+id/view_line_9_doloncha_1"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_1_re_1" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_1_do_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_330sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:rotation="90"
+                    android:src="@drawable/down_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_do_3"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_do_3"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_do_3"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_35sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_do_3"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_do_3"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_do_3" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_36sdp"
+                    android:layout_marginTop="@dimen/_338sdp"
+                    android:layout_marginEnd="@dimen/_11sdp"
+                    android:background="@android:color/white"
+                    android:rotation="6"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_do_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_350sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:rotation="90"
+                    android:src="@drawable/down_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_do_4"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_do_4"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_do_4"
+                    tools:ignore="ContentDescription" />
+
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_358sdp"
+                    android:layout_marginEnd="@dimen/_11sdp"
+                    android:background="@android:color/white"
+                    android:rotation="6"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_si_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_365sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:rotation="90"
+                    android:src="@drawable/up_not"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_si_3"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_si_3"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_si_3"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_35sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_3"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_si_3"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_si_3"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_si_3" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_lya_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_385sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_lya_5"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_lya_5"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_lya_5" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_46sdp"
+                    android:layout_marginStart="@dimen/_6sdp"
+                    android:layout_marginTop="@dimen/_401sdp"
+                    android:background="@android:color/white"
+                    android:rotation="-7"
+                    app:layout_constraintStart_toEndOf="@id/view_line_1_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_si_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_412sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_si_4"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_si_4"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_si_4" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:layout_marginStart="@dimen/_6sdp"
+                    android:layout_marginTop="@dimen/_429sdp"
+                    android:background="@android:color/white"
+                    android:rotation="-7"
+                    app:layout_constraintStart_toEndOf="@id/view_line_2_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_do_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_430sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_2_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_4"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_do_5"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_do_5"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_do_5" />
+
+                <View
+                    android:id="@+id/view_line_10_doloncha_1"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_1_do_5" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_1_lya_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_450sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_1_lya_6"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_1_lya_6"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_1_lya_6" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_467sdp"
+                    android:background="@android:color/white"
+                    app:layout_constraintStart_toEndOf="@id/view_line_2_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_lya_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_472sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription,TooManyViews" />
+
+                <ImageView
+                    android:id="@+id/doloncha_1_lya_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_1_lya_7"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/dot_3_doloncha_1"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/ring_shape"
+                    android:backgroundTint="@color/white"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@id/view_line_4_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_1_lya_8"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/dot_4_doloncha_1"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/ring_shape"
+                    android:backgroundTint="@color/white"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_1_lya_8"
+                    tools:ignore="ContentDescription" />
+
+
+                <View
+                    android:id="@+id/view_line_11_doloncha_1"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/dot_4_doloncha_1" />
+
+
+                <View
+                    android:id="@+id/view_line_12_doloncha_1"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_1"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_1"
+                    app:layout_constraintTop_toBottomOf="@+id/view_line_11_doloncha_1" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <ScrollView
+            android:id="@+id/nested_scroll_doloncha_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_doloncha_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <View
+                    android:id="@+id/view_line_1_doloncha_2"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_120sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteY="26dp" />
+
+                <View
+                    android:id="@+id/view_line_2_doloncha_2"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_2"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_1_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteY="26dp" />
+
+                <View
+                    android:id="@+id/view_line_3_doloncha_2"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_2"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteY="26dp" />
+
+                <View
+                    android:id="@+id/view_line_4_doloncha_2"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_2"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view_line_5_doloncha_2"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_2"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/start_not_id_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_1_doloncha_2"
+                    app:layout_constraintStart_toEndOf="@id/view_line_5_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription"
+                     />
+
+                <ImageView
+                    android:id="@+id/hash_tag_1_id_doloncha_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-25dp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_hash_tag"
+                    app:layout_constraintEnd_toEndOf="@id/view_line_1_doloncha_2"
+                    app:layout_constraintStart_toStartOf="@id/view_line_1_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@id/start_not_id_2"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription"/>
+
+
+                <ImageView
+                    android:id="@+id/hash_tag_2_id_doloncha_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_hash_tag"
+                    app:layout_constraintStart_toStartOf="@id/view_line_3_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@id/hash_tag_1_id_doloncha_2"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/hash_tag_3_id_doloncha_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_hash_tag"
+                    app:layout_constraintStart_toStartOf="@id/view_line_1_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@id/hash_tag_2_id_doloncha_2"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <View
+                    android:id="@+id/view_line_6_doloncha_2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_2"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@+id/hash_tag_3_id_doloncha_2" />
+
+                <View
+                    android:id="@+id/view_line_7_doloncha_2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_2"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@+id/view_line_6_doloncha_2" />
+
+                <ImageView
+                    android:id="@+id/dot_1_doloncha_2"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/ring_shape"
+                    android:backgroundTint="@color/white"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_2"
+                    app:layout_constraintStart_toEndOf="@id/view_line_4_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@+id/view_line_7_doloncha_2"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/dot_2_doloncha_2"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@drawable/ring_shape"
+                    android:backgroundTint="@color/white"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@+id/view_line_7_doloncha_2"
+                    tools:ignore="ContentDescription" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_2_re_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_80sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_re_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_re_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_re_1" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_21sdp"
+                    android:layout_marginTop="@dimen/_88sdp"
+                    android:background="@android:color/white"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_5_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_re_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_100sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_marginTop="@dimen/_127sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:background="@android:color/white"
+                    android:rotation="-13"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_re_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_120sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_2_fa_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_140sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_1_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_4"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_fa_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_fa_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_fa_1" />
+
+                <View
+                    android:id="@+id/view_line_8_doloncha_2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_2"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_2_fa_1" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_mi_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_165sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_mi_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_mi_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_mi_1" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_49sdp"
+                    android:layout_marginTop="@dimen/_173sdp"
+                    android:layout_marginEnd="@dimen/_6sdp"
+                    android:background="@android:color/white"
+                    android:rotation="5"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_49sdp"
+                    android:layout_marginTop="@dimen/_173sdp"
+                    android:layout_marginEnd="@dimen/_6sdp"
+                    android:background="@android:color/white"
+                    android:rotation="5"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_fa_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_182sdp"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_1_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_4"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_fa_2"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_fa_2"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_fa_2" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_mi_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_197sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_mi_2"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_mi_2"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_mi_2" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_re_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_213sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_re_4"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_re_4"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_re_4" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_do_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_230sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <View
+                    android:id="@+id/view_line_9_doloncha_2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_2"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_2_do_1" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_2_re_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_250sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_re_5"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_re_5"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_re_5" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_21sdp"
+                    android:layout_marginTop="@dimen/_258sdp"
+                    android:background="@android:color/white"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_5_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_re_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_270sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_2_re_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_290sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_21sdp"
+                    android:layout_marginTop="@dimen/_298sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:background="@android:color/white"
+                    android:rotation="-7"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_fa_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_310sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_1_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_4"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_fa_3"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_fa_3"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_fa_3" />
+
+                <View
+                    android:id="@+id/view_line_10_doloncha_2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_2"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_2_fa_3" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_2_mi_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_335sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_mi_3"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_mi_3"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_mi_3" />
+
+                <View
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_342sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:background="@android:color/white"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_re_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_355sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_re_8"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_re_8"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_re_8" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:layout_marginTop="@dimen/_363sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:background="@android:color/white"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_mi_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_373sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_fa_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-10dp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_1_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_2_mi_4"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_4"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_fa_4"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_fa_4"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_fa_4" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_39sdp"
+                    android:layout_marginTop="@dimen/_397sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:background="@android:color/white"
+                    android:rotation="6"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_mi_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-7dp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_2_fa_4"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_mi_5"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_mi_5"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_mi_5" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:layout_marginTop="@dimen/_418sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:background="@android:color/white"
+                    android:rotation="5"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_re_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_428sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_re_9"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_re_9"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_re_9" />
+
+                <View
+                    android:id="@+id/view_line_11_doloncha_2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_2"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_2_re_9" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_2_do_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_450sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_4"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_do_2"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_do_2"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_do_2" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_458sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:background="@android:color/white"
+                    android:rotation="5"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_5_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_2_do_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_470sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_478sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:background="@android:color/white"
+                    android:rotation="5"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_si_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_489sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_si_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_si_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_si_1" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_lya_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_508sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_lya_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_lya_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_lya_1" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_43sdp"
+                    android:layout_marginStart="@dimen/_6sdp"
+                    android:layout_marginTop="@dimen/_524sdp"
+                    android:background="@android:color/white"
+                    android:rotation="-6"
+                    app:layout_constraintStart_toEndOf="@id/view_line_1_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_si_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_530sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_si_2"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_si_2"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_si_2" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_6sdp"
+                    android:layout_marginTop="@dimen/_547sdp"
+                    android:background="@android:color/white"
+                    android:rotation="-6"
+                    app:layout_constraintStart_toEndOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_2_do_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_550sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_2_doloncha_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_4"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_2_do_4"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_2_do_4"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_2_do_4" />
+
+                <View
+                    android:id="@+id/view_line_12_doloncha_2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_2"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_2"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_2_do_4" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nested_scroll_doloncha_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_doloncha_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <View
+                    android:id="@+id/view_line_1_doloncha_3"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_120sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteY="26dp" />
+
+                <View
+                    android:id="@+id/view_line_2_doloncha_3"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_1_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteY="26dp" />
+
+                <View
+                    android:id="@+id/view_line_3_doloncha_3"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteY="26dp" />
+
+                <View
+                    android:id="@+id/view_line_4_doloncha_3"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view_line_5_doloncha_3"
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_line_12_doloncha_3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/start_not_id_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_1_doloncha_3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_5_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/hash_tag_1_id_doloncha_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-25dp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_hash_tag"
+                    app:layout_constraintEnd_toEndOf="@id/view_line_1_doloncha_3"
+                    app:layout_constraintStart_toStartOf="@id/view_line_1_doloncha_3"
+                    app:layout_constraintTop_toBottomOf="@id/start_not_id_3"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <ImageView
+                    android:id="@+id/hash_tag_2_id_doloncha_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_hash_tag"
+                    app:layout_constraintStart_toStartOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toBottomOf="@id/hash_tag_1_id_doloncha_3"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/hash_tag_3_id_doloncha_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_hash_tag"
+                    app:layout_constraintStart_toStartOf="@id/view_line_1_doloncha_3"
+                    app:layout_constraintTop_toBottomOf="@id/hash_tag_2_id_doloncha_3"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_3_lya_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_70sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_3_lya_3"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_3_lya_3"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_3_lya_3" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_86sdp"
+                    android:background="@android:color/white"
+                    app:layout_constraintStart_toEndOf="@id/view_line_1_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_3_lya_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_109sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_3_mi_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_140sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_4"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_3_mi_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_3_mi_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_3_mi_1" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_148sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@android:color/white"
+                    android:rotation="2"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_3_mi_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_190sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_198sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@android:color/white"
+                    android:rotation="2"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_3_re_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_220sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_3_re_1"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_3_re_1"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_3_re_1" />
+
+
+                <View
+                    android:id="@+id/view_line_9_doloncha_3"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_3"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_3"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_3_re_1" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_3_do_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_250sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_3_do_3"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_3_do_3"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_3_do_3" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_308sdp"
+                    android:layout_marginEnd="@dimen/_11sdp"
+                    android:background="@android:color/white"
+                    android:rotation="3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_3_do_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_300sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_258sdp"
+                    android:layout_marginEnd="@dimen/_11sdp"
+                    android:background="@android:color/white"
+                    android:rotation="3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_4_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_3_si_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_330sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:rotation="270"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_3"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_3_si_3"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_3_si_3"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_3_si_3" />
+
+                <ImageView
+                    android:id="@+id/doloncha_3_lya_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_350sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_3_lya_5"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_3_lya_5"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_3_lya_5" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_66sdp"
+                    android:layout_marginStart="@dimen/_6sdp"
+                    android:layout_marginTop="@dimen/_366sdp"
+                    android:background="@android:color/white"
+                    android:rotation="-4"
+                    app:layout_constraintStart_toEndOf="@id/view_line_1_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_3_si_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_390sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_2"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_3_si_4"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_3_si_4"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_3_si_4" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_26sdp"
+                    android:layout_marginStart="@dimen/_6sdp"
+                    android:layout_marginTop="@dimen/_406sdp"
+                    android:background="@android:color/white"
+                    android:rotation="-3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_2_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_3_do_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_415sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_2_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_4"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_3_do_5"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_3_do_5"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_3_do_5" />
+
+                <View
+                    android:id="@+id/view_line_10_doloncha_3"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_3"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_3"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_3_do_5" />
+
+
+                <ImageView
+                    android:id="@+id/doloncha_3_lya_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_435sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:rotation="90"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/doloncha_3_lya_6"
+                    app:layout_constraintStart_toEndOf="@+id/doloncha_3_lya_6"
+                    app:layout_constraintTop_toTopOf="@+id/doloncha_3_lya_6" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="@dimen/_26sdp"
+                    android:layout_marginStart="@dimen/_9sdp"
+                    android:layout_marginTop="@dimen/_451sdp"
+                    android:background="@android:color/white"
+                    app:layout_constraintStart_toEndOf="@id/view_line_2_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/doloncha_3_lya_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_460sdp"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/doloncha_3_lya_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rotation="90"
+
+                    android:src="@drawable/icon_gamma3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_3_lya_7"
+                    app:tint="@color/white"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/dot_3_doloncha_3"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/ring_shape"
+                    android:backgroundTint="@color/white"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_4_doloncha_3"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_3_lya_8"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/dot_4_doloncha_3"
+                    android:layout_width="@dimen/_4sdp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/ring_shape"
+                    android:backgroundTint="@color/white"
+                    app:layout_constraintEnd_toStartOf="@id/view_line_2_doloncha_3"
+                    app:layout_constraintStart_toEndOf="@id/view_line_3_doloncha_3"
+                    app:layout_constraintTop_toBottomOf="@+id/doloncha_3_lya_8"
+                    tools:ignore="ContentDescription" />
+
+
+                <View
+                    android:id="@+id/view_line_11_doloncha_3"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_2sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_3"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_3"
+                    app:layout_constraintTop_toBottomOf="@+id/dot_4_doloncha_3" />
+
+
+                <View
+                    android:id="@+id/view_line_12_doloncha_3"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/view_line_1_doloncha_3"
+                    app:layout_constraintStart_toEndOf="@+id/view_line_5_doloncha_3"
+                    app:layout_constraintTop_toBottomOf="@+id/view_line_11_doloncha_3" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-75dp"
+            android:fontFamily="@font/playfair_display"
+            android:rotation="90"
+            android:text="@string/do_loncha_n_o_zbek_xalq_qo_shig_i"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/allegretto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:fontFamily="@font/playfair_display"
+            android:rotation="90"
+            android:text="@string/allegretto"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_320sdp"
+            android:layout_marginBottom="@dimen/_70sdp"
+            android:fontFamily="@font/playfair_display"
+            android:rotation="90"
+            android:text="@string/feoktist_vasilyev_nqayta_ishlangan"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/allegretto" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView_rubob_tors"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_480sdp"
+        android:src="@drawable/rubob"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cl_doloncha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+
+    <View
+        android:id="@+id/view_line_rubob_1"
+        android:layout_width="@dimen/_1sdp"
+        android:layout_height="@dimen/_412sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_6sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
+        app:layout_constraintEnd_toStartOf="@+id/view_line_rubob_2"
+        app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />
+
+    <View
+        android:id="@+id/view_line_rubob_2"
+        android:layout_width="@dimen/_1sdp"
+        android:layout_height="@dimen/_412sdp"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_rubob_tors"
+        app:layout_constraintStart_toStartOf="@+id/imageView_rubob_tors"
+        app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />
+
+    <View
+        android:id="@+id/view_line_rubob_3"
+        android:layout_width="@dimen/_1sdp"
+        android:layout_height="@dimen/_412sdp"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
+        app:layout_constraintStart_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />
+
+
+    <ImageView
+        android:id="@+id/lya_3_lya_2_diyez"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_lya_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_lya_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_sol_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_sol_2_diyez"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_sol_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_sol_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_fa_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_fa_2_diyez"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_fa_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_fa_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_mi_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_mi_2"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_re_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_re_2_diyez"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_re_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_re_2"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_do_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_do_2_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_do_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_do_2"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_si_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_si_2"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_lya_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_lya_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_lya_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_lya_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_sol_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_sol_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_sol_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_sol_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_fa_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_fa_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_fa_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_fa_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_mi_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_mi_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_re_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_re_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_re_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_re_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_do_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_do_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_13sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_do_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_do_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_si_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_si_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_3_si_1_bimol"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_3_si_1_bimol"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/view_line_rubob_3"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_3"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_3"
+        tools:ignore="ContentDescription" />
+
+
+
+    <ImageView
+        android:id="@+id/mi_2_mi_2_diyez"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_mi_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_mi_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_re_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_re_2_diyez"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_re_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_re_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_do_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_do_2_diyez"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_do_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_do_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_si_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_si_2"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_lya_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_lya_2_diyez"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_lya_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_lya_2"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_sol_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_sol_2_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_sol_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_sol_2"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_fa_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_fa_2_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_fa_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_fa_2"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_mi_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_mi_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_re_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_re_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_re_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_re_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_do_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_do_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_do_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_do_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_si_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_si_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_lya_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_lya_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_lya_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_lya_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_sol_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_sol_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_13sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_sol_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_sol_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_fa_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_fa_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/mi_2_fa_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/mi_2_fa_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/view_line_rubob_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_2"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_2"
+        tools:ignore="ContentDescription" />
+
+
+    <ImageView
+        android:id="@+id/lya_1_lya_2_diyez"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_lya_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_lya_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_sol_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_sol_2_diyez"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_sol_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_sol_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_fa_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_fa_2_diyez"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_fa_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_fa_2"
+        android:layout_width="@dimen/_3sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_mi_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_mi_2"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_re_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_re_2_diyez"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_re_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_re_2"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_do_2_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_do_2_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_do_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_do_2"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_si_2"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_si_2"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_lya_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_lya_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_lya_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_lya_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_sol_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_sol_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_sol_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_sol_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_fa_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_fa_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_fa_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_fa_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_9sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_mi_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_mi_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_re_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_re_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_re_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_re_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_do_1_diyez"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_do_1_diyez"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_13sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_do_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_do_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_si_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_si_1"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lya_1_si_1_bimol"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/lya_1_si_1_bimol"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:background="@drawable/ring_shape"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/view_line_rubob_1"
+        app:layout_constraintEnd_toEndOf="@+id/view_line_rubob_1"
+        app:layout_constraintStart_toStartOf="@+id/view_line_rubob_1"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mtb_play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-20dp"
+        android:backgroundTint="@color/brown_light_bg"
+        android:rotation="90"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:text="@string/play"
+        android:textAllCaps="false"
+        app:icon="@drawable/icon_play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TooManyViews" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

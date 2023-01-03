@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.history.HistoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/cholgu_tarixi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/example_text"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/history_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/cholgu_tarixi"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/times_new_roman"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="@string/history_text"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/kvarta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/history_text"
+            android:text="@string/kvarta"
+            android:fontFamily="@font/playfair_display"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/kvarta_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kvarta_type"
+            app:layout_constraintTop_toBottomOf="@id/kvarta"
+            android:fontFamily="@font/times_new_roman"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@android:color/black"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            />
+
+        <ImageView
+            android:id="@+id/history_image_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/nota1"
+            app:layout_constraintTop_toBottomOf="@id/kvarta_type"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="@dimen/_10sdp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/kvarta_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/history_image_1"
+            android:text="@string/kvarta_va_kvinta"
+            android:fontFamily="@font/playfair_display"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/kvarta_type_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kvarta_type"
+            app:layout_constraintTop_toBottomOf="@id/kvarta_2"
+            android:fontFamily="@font/times_new_roman"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@android:color/black"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            />
+
+        <ImageView
+            android:id="@+id/history_image_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nota2"
+            app:layout_constraintTop_toBottomOf="@id/kvarta_type_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="@dimen/_10sdp"
+            android:adjustViewBounds="true"
+            tools:ignore="ContentDescription" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/rubob_tuzulishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qashqar_rubobning_tuzilishi"
+            app:layout_constraintTop_toBottomOf="@+id/history_image_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/rubob_tuzulishi_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_quloqlar"
+            app:layout_constraintTop_toBottomOf="@+id/rubob_tuzulishi"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/times_new_roman"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:textSize="@dimen/_12sdp"
+            />
+
+        <ImageView
+            android:id="@+id/history_image_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/rubob_tuzulishi"
+            app:layout_constraintStart_toEndOf="@+id/rubob_tuzulishi_description"
+            android:src="@drawable/rubob_numbers"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="@dimen/_10sdp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/_20sdp"
+            tools:ignore="ContentDescription" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
