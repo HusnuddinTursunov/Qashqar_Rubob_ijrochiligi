@@ -102,7 +102,7 @@
             android:id="@+id/kvarta_type_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/kvarta_type"
+            android:text="@string/kvarta_type_2"
             app:layout_constraintTop_toBottomOf="@id/kvarta_2"
             android:fontFamily="@font/times_new_roman"
             android:textSize="@dimen/_14ssp"

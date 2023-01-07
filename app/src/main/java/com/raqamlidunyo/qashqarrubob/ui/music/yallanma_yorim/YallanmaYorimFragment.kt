@@ -496,7 +496,7 @@ class YallanmaYorimFragment : Fragment() {
             }
         }
 
-        mediaPlayer_orginal = MediaPlayer.create(requireContext(),R.raw.duloncha)
+        mediaPlayer_orginal = MediaPlayer.create(requireContext(),R.raw.yallama_yorim)
         mediaPlayer_orginal.setOnCompletionListener {
             play_button_original.setIconResource(R.drawable.icon_play)
             play_button_original.text = "Original"
