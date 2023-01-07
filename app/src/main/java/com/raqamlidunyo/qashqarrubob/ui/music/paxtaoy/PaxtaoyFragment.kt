@@ -1,6 +1,7 @@
 package com.raqamlidunyo.qashqarrubob.ui.music.paxtaoy
 
 import android.media.MediaPlayer
+import android.media.MediaPlayer.OnCompletionListener
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -24,7 +25,9 @@ import kotlinx.coroutines.launch
 class PaxtaoyFragment : Fragment() {
 
     private lateinit var play_button: MaterialButton
+    private lateinit var play_button_original: MaterialButton
     private lateinit var mediaPlayer: MediaPlayer
+    private lateinit var mediaPlayer_orginal: MediaPlayer
 
     private lateinit var cl_not1: ConstraintLayout
     private lateinit var cl_not2: ConstraintLayout
@@ -98,11 +101,14 @@ class PaxtaoyFragment : Fragment() {
     private lateinit var songs_list: List<Paxtaoy>
 
     private var isClickButton: Boolean = false
+    private var isClickButtonOriginal: Boolean = false
     private var count = 0
     private var main_count = 0
 
     private var isPlaying: Boolean = false
     private var isFinishFirstTrack = false
+
+    private var isFinishOriginal:Boolean = false
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -116,6 +122,7 @@ class PaxtaoyFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         play_button = view.findViewById(R.id.mtb_play_button)
+        play_button_original = view.findViewById(R.id.mtb_play_original_button)
 
         cl_not1 = view.findViewById(R.id.cl_paxtaoy_1)
         cl_not2 = view.findViewById(R.id.cl_paxtaoy_2)
@@ -275,6 +282,42 @@ class PaxtaoyFragment : Fragment() {
             }
         }
 
+
+        mediaPlayer_orginal = MediaPlayer.create(requireContext(),R.raw.paxtaoy)
+        mediaPlayer_orginal.setOnCompletionListener {
+            play_button_original.setIconResource(R.drawable.icon_play)
+            play_button_original.text = "Original"
+            isClickButtonOriginal = false
+
+        }
+        play_button_original.setOnClickListener {
+
+
+            if (!isClickButtonOriginal)
+            {
+                isClickButtonOriginal = true
+                play_button_original.setIconResource(R.drawable.ic_pause)
+                play_button_original.text = "Original"
+                mediaPlayer_orginal.start()
+
+
+                isClickButton = false
+                play_button.setIconResource(R.drawable.icon_play)
+                play_button.text = "Play"
+                isFinishOriginal = true
+            }
+            else{
+                isClickButtonOriginal = false
+                mediaPlayer_orginal.pause()
+                play_button_original.setIconResource(R.drawable.icon_play)
+                play_button_original.text = "Original"
+            }
+
+
+        }
+
+
+
     }
 
     private suspend fun playFirstTor(
@@ -287,11 +330,37 @@ class PaxtaoyFragment : Fragment() {
             isClickButton = true
             play_button.setIconResource(R.drawable.ic_pause)
             play_button.text = "Pause"
+            play_button.isEnabled = false
+            delay(500)
+            play_button.isEnabled = true
+
+            if (isClickButtonOriginal) {
+                mediaPlayer_orginal.pause()
+//                mediaPlayer_orginal.setOnCompletionListener {
+//                    play_button_original.setIconResource(R.drawable.icon_play)
+//                    play_button_original.text = "Original"
+//                    isClickButtonOriginal = false
+//                }
+                isClickButtonOriginal = false
+                play_button_original.setIconResource(R.drawable.icon_play)
+                play_button_original.text = "Original"
+            }
+
+
 
         } else {
             isClickButton = false
             play_button.setIconResource(R.drawable.icon_play)
             play_button.text = "Play"
+            play_button.isEnabled = false
+            delay(500)
+            play_button.isEnabled = true
+
+
+            isClickButtonOriginal = false
+            play_button_original.setIconResource(R.drawable.icon_play)
+            play_button_original.text = "Original"
+
 
         }
 
@@ -592,5 +661,41 @@ class PaxtaoyFragment : Fragment() {
 
     }
 
+    override fun onStart() {
+        super.onStart()
+        isClickButtonOriginal = false
+    }
 
+    override fun onPause() {
+        super.onPause()
+        mediaPlayer_orginal.pause()
+        isClickButtonOriginal = false
+        isClickButton = false
+        play_button_original.setIconResource(R.drawable.icon_play)
+        play_button.setIconResource(R.drawable.icon_play)
+        play_button.text = "Play"
+    }
+
+    override fun onStop() {
+        super.onStop()
+        mediaPlayer_orginal.pause()
+        isClickButtonOriginal = false
+        isClickButton = false
+        play_button_original.setIconResource(R.drawable.icon_play)
+        play_button.setIconResource(R.drawable.icon_play)
+        play_button.text = "Play"
+
+    }
+
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        mediaPlayer_orginal.pause()
+        isClickButtonOriginal = false
+        isClickButton = false
+        play_button_original.setIconResource(R.drawable.icon_play)
+        play_button.setIconResource(R.drawable.icon_play)
+        play_button.text = "Play"
+
+    }
 }

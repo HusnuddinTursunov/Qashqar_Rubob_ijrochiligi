@@ -26,7 +26,9 @@ import kotlinx.coroutines.launch
 class QashqarchaFragment : Fragment() {
 
     private lateinit var play_button: MaterialButton
+    private lateinit var play_button_original: MaterialButton
     private lateinit var mediaPlayer: MediaPlayer
+    private lateinit var mediaPlayer_orginal: MediaPlayer
 
     private lateinit var cl_qashaqarch1: ConstraintLayout
     private lateinit var cl_qashaqarch2: ConstraintLayout
@@ -36,6 +38,7 @@ class QashqarchaFragment : Fragment() {
     private lateinit var nested_scroll_qashaqarch_3: NestedScrollView
 
     private lateinit var view_line_rubob_1:View
+    private lateinit var view_line_rubob_2:View
 
     private lateinit var qashqarcha_1_mi_1: ImageView
     private lateinit var qashqarcha_1_lya_1: ImageView
@@ -138,6 +141,9 @@ class QashqarchaFragment : Fragment() {
     private var isStartThirdTrack: Boolean = true
 
     private var isPlaying: Boolean = false
+    private var isClickButtonOriginal: Boolean = false
+    private var isFinishOriginal:Boolean = false
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -151,6 +157,8 @@ class QashqarchaFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
+        play_button_original = view.findViewById(R.id.mtb_play_original_button)
+
         cl_qashaqarch1 = view.findViewById(R.id.cl_qashqarcha_1)
         cl_qashaqarch2 = view.findViewById(R.id.cl_qashqarcha_2)
         cl_qashaqarch3 = view.findViewById(R.id.cl_qashqarcha_3)
@@ -159,6 +167,7 @@ class QashqarchaFragment : Fragment() {
         nested_scroll_qashaqarch_3 = view.findViewById(R.id.nested_qashqarcha_3)
 
         view_line_rubob_1 = view.findViewById(R.id.view_line_rubob_1)
+        view_line_rubob_2 = view.findViewById(R.id.view_line_rubob_2)
 
         qashqarcha_1_mi_1 = view.findViewById(R.id.qashqarcha_1_mi_1)
         qashqarcha_1_lya_1 = view.findViewById(R.id.qashqarcha_1_lya_1)
@@ -345,19 +354,19 @@ class QashqarchaFragment : Fragment() {
             lya_1_lya_1,
             lya_1_lya_1,
 
+            lya_1_lya_2,
             lya_1_lya_1,
-            lya_1_lya_2,
-            lya_1_lya_2,
-            lya_1_lya_2,
-            lya_1_lya_2,
+            lya_1_lya_1,
+            lya_1_lya_1,
+            lya_1_lya_1,
             lya_1_si_2,
             lya_1_sol_1,
-            lya_1_lya_2,
+            lya_1_lya_1,
             lya_1_fa_1_diyez,
             lya_1_fa_1_diyez,
             lya_1_fa_1_diyez,
             lya_1_sol_1,
-            lya_1_lya_2,
+            lya_1_lya_1,
             lya_1_mi_1,
             lya_1_fa_1_diyez,
             lya_1_mi_1,
@@ -383,6 +392,41 @@ class QashqarchaFragment : Fragment() {
             }
         }
 
+        mediaPlayer_orginal = MediaPlayer.create(requireContext(),R.raw.qashqarcha)
+        mediaPlayer_orginal.setOnCompletionListener {
+            play_button_original.setIconResource(R.drawable.icon_play)
+            play_button_original.text = "Original"
+            isClickButtonOriginal = false
+
+        }
+
+
+        play_button_original.setOnClickListener {
+
+
+            if (!isClickButtonOriginal)
+            {
+                isClickButtonOriginal = true
+                play_button_original.setIconResource(R.drawable.ic_pause)
+                play_button_original.text = "Original"
+                mediaPlayer_orginal.start()
+
+
+                isClickButton = false
+                play_button.setIconResource(R.drawable.icon_play)
+                play_button.text = "Play"
+                isFinishOriginal = true
+            }
+            else{
+                isClickButtonOriginal = false
+                mediaPlayer_orginal.pause()
+                play_button_original.setIconResource(R.drawable.icon_play)
+                play_button_original.text = "Original"
+            }
+
+
+        }
+
     }
 
     private suspend fun playFirstTor(
@@ -399,6 +443,20 @@ class QashqarchaFragment : Fragment() {
             delay(500)
             play_button.isEnabled = true
 
+            if (isClickButtonOriginal) {
+                mediaPlayer_orginal.pause()
+//                mediaPlayer_orginal.setOnCompletionListener {
+//                    play_button_original.setIconResource(R.drawable.icon_play)
+//                    play_button_original.text = "Original"
+//                    isClickButtonOriginal = false
+//                }
+                isClickButtonOriginal = false
+                play_button_original.setIconResource(R.drawable.icon_play)
+                play_button_original.text = "Original"
+            }
+
+
+
         } else {
             isClickButton = false
             play_button.setIconResource(R.drawable.icon_play)
@@ -408,7 +466,13 @@ class QashqarchaFragment : Fragment() {
             play_button.isEnabled = true
 
 
+            isClickButtonOriginal = false
+            play_button_original.setIconResource(R.drawable.icon_play)
+            play_button_original.text = "Original"
+
+
         }
+
 
         for (j in main_count..12)
         {
@@ -622,13 +686,15 @@ class QashqarchaFragment : Fragment() {
                         )
                     )
 
-                    if (listOfNotesOnRubob[i].id == R.id.lya_1_lya_1)
+                    if (listOfNotesOnRubob[i].id == R.id.lya_1_mi_1)
                     {
-                        view_line_rubob_1.setBackgroundColor(ContextCompat.getColor(requireContext(), android.R.color.holo_red_light))
-                        view_line_rubob_1.animation = AnimationUtils.loadAnimation(requireContext(), R.anim.fade_in)
+                        view_line_rubob_1.setBackgroundColor(ContextCompat.getColor(requireContext(), android.R.color.white))
+                        view_line_rubob_2.setBackgroundColor(ContextCompat.getColor(requireContext(), android.R.color.holo_red_light))
+                        view_line_rubob_2.animation = AnimationUtils.loadAnimation(requireContext(), R.anim.fade_in)
                     }
                     else{
                         view_line_rubob_1.setBackgroundColor(ContextCompat.getColor(requireContext(), android.R.color.white))
+                        view_line_rubob_2.setBackgroundColor(ContextCompat.getColor(requireContext(), android.R.color.white))
                         listOfNotesOnRubob[i].visibility = View.VISIBLE
                         listOfNotesOnRubob[i].startAnimation(
                             AnimationUtils.loadAnimation(
@@ -668,9 +734,11 @@ class QashqarchaFragment : Fragment() {
                     {
                         view_line_rubob_1.setBackgroundColor(ContextCompat.getColor(requireContext(), android.R.color.holo_red_light))
                         view_line_rubob_1.animation = AnimationUtils.loadAnimation(requireContext(), R.anim.fade_in)
+                        view_line_rubob_2.setBackgroundColor(ContextCompat.getColor(requireContext(), android.R.color.white))
                     }
                     else{
                         view_line_rubob_1.setBackgroundColor(ContextCompat.getColor(requireContext(), android.R.color.white))
+                        view_line_rubob_2.setBackgroundColor(ContextCompat.getColor(requireContext(), android.R.color.white))
                         listOfNotesOnRubob[i].visibility = View.VISIBLE
                         listOfNotesOnRubob[i].startAnimation(
                             AnimationUtils.loadAnimation(
@@ -982,7 +1050,7 @@ class QashqarchaFragment : Fragment() {
                         )
                     )
 
-                    if (listOfNotesOnRubob[i].id == R.id.lya_1_lya_1)
+                    if (listOfNotesOnRubob[i].id == R.id.lya_1_lya_2)
                     {
                         view_line_rubob_1.setBackgroundColor(ContextCompat.getColor(requireContext(), android.R.color.holo_red_light))
                         view_line_rubob_1.animation = AnimationUtils.loadAnimation(requireContext(), R.anim.fade_in)
@@ -1026,7 +1094,7 @@ class QashqarchaFragment : Fragment() {
                         )
                     )
                     listOfNotesOnRubob[i - 1].visibility = View.INVISIBLE
-                    if (listOfNotesOnRubob[i].id == R.id.lya_1_lya_1)
+                    if (listOfNotesOnRubob[i].id == R.id.lya_1_lya_2)
                     {
                         view_line_rubob_1.setBackgroundColor(ContextCompat.getColor(requireContext(), android.R.color.holo_red_light))
                         view_line_rubob_1.animation = AnimationUtils.loadAnimation(requireContext(), R.anim.fade_in)
@@ -1062,7 +1130,7 @@ class QashqarchaFragment : Fragment() {
                     )
 
                     listOfNotesOnRubob[i - 1].visibility = View.INVISIBLE
-                    if (listOfNotesOnRubob[i].id == R.id.lya_1_lya_1)
+                    if (listOfNotesOnRubob[i].id == R.id.lya_1_lya_2)
                     {
                         view_line_rubob_1.setBackgroundColor(ContextCompat.getColor(requireContext(), android.R.color.holo_red_light))
                         view_line_rubob_1.animation = AnimationUtils.loadAnimation(requireContext(), R.anim.fade_in)
@@ -1096,5 +1164,43 @@ class QashqarchaFragment : Fragment() {
         }
         animator.duration = songsList
         animator.start()
+    }
+
+    override fun onStart() {
+        super.onStart()
+        isClickButtonOriginal = false
+    }
+
+    override fun onPause() {
+        super.onPause()
+        mediaPlayer_orginal.pause()
+        isClickButtonOriginal = false
+        isClickButton = false
+        play_button_original.setIconResource(R.drawable.icon_play)
+        play_button.setIconResource(R.drawable.icon_play)
+        play_button.text = "Play"
+    }
+
+    override fun onStop() {
+        super.onStop()
+        mediaPlayer_orginal.pause()
+        isClickButtonOriginal = false
+        isClickButton = false
+        play_button_original.setIconResource(R.drawable.icon_play)
+        play_button.setIconResource(R.drawable.icon_play)
+        play_button.text = "Play"
+
+    }
+
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        mediaPlayer_orginal.pause()
+        isClickButtonOriginal = false
+        isClickButton = false
+        play_button_original.setIconResource(R.drawable.icon_play)
+        play_button.setIconResource(R.drawable.icon_play)
+        play_button.text = "Play"
+
     }
 }

@@ -26,6 +26,8 @@ class MediatorFragment : Fragment() {
     private lateinit var mcv_shtrix2: MaterialCardView
     private lateinit var mcv_shtrix3: MaterialCardView
     private lateinit var mcv_shtrix4: MaterialCardView
+    private lateinit var mcv_shtrix_up: MaterialCardView
+    private lateinit var mcv_shtrix_down: MaterialCardView
     private lateinit var imv_play_video: ImageView
     private lateinit var imv_play_video_2: ImageView
     private lateinit var imv_play_video_3: ImageView
@@ -33,6 +35,8 @@ class MediatorFragment : Fragment() {
     private lateinit var simpleExoPlayer_2: SimpleExoPlayer
     private lateinit var simpleExoPlayer_3: SimpleExoPlayer
     private lateinit var simpleExoPlayer_4: SimpleExoPlayer
+    private lateinit var simpleExoPlayer_5: SimpleExoPlayer
+    private lateinit var simpleExoPlayer_6: SimpleExoPlayer
     private var onPlay_1: Boolean = false
     private var onPlay_2: Boolean = false
     private var onPlay_3: Boolean = false
@@ -41,6 +45,8 @@ class MediatorFragment : Fragment() {
     private val video_2 = "file:///android_asset/shtrix2.mp4"
     private val video_3 = "file:///android_asset/shtrix3.mp4"
     private val video_4 = "file:///android_asset/shtrix4.mp4"
+    private val video_up = "file:///android_asset/shtrix_up.mp4"
+    private val video_down = "file:///android_asset/shtrix_down.mp4"
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -59,12 +65,16 @@ class MediatorFragment : Fragment() {
         mcv_shtrix2 = view.findViewById(R.id.shtrix_2)
         mcv_shtrix3 = view.findViewById(R.id.shtrix_3)
         mcv_shtrix4 = view.findViewById(R.id.shtrix_4)
+        mcv_shtrix_up = view.findViewById(R.id.shtrix_up)
+        mcv_shtrix_down = view.findViewById(R.id.shtrix_down)
 
         val trackerSelector = DefaultTrackSelector()
         simpleExoPlayer_1 = ExoPlayerFactory.newSimpleInstance(view.context, trackerSelector)
         simpleExoPlayer_2 = ExoPlayerFactory.newSimpleInstance(view.context, trackerSelector)
         simpleExoPlayer_3 = ExoPlayerFactory.newSimpleInstance(view.context, trackerSelector)
         simpleExoPlayer_4 = ExoPlayerFactory.newSimpleInstance(view.context, trackerSelector)
+        simpleExoPlayer_5 = ExoPlayerFactory.newSimpleInstance(view.context, trackerSelector)
+        simpleExoPlayer_6 = ExoPlayerFactory.newSimpleInstance(view.context, trackerSelector)
 
         imv_play_video = view.findViewById(R.id.imv_video_play)
 
@@ -75,6 +85,8 @@ class MediatorFragment : Fragment() {
            simpleExoPlayer_2.playWhenReady = false
            simpleExoPlayer_3.playWhenReady = false
            simpleExoPlayer_4.playWhenReady = false
+           simpleExoPlayer_5.playWhenReady = false
+           simpleExoPlayer_6.playWhenReady = false
         }
 
         mcv_shtrix2.setOnClickListener {
@@ -82,6 +94,8 @@ class MediatorFragment : Fragment() {
             simpleExoPlayer_1.playWhenReady = false
             simpleExoPlayer_3.playWhenReady = false
             simpleExoPlayer_4.playWhenReady = false
+            simpleExoPlayer_5.playWhenReady = false
+            simpleExoPlayer_6.playWhenReady = false
         }
 
         mcv_shtrix3.setOnClickListener {
@@ -89,6 +103,8 @@ class MediatorFragment : Fragment() {
             simpleExoPlayer_2.playWhenReady = false
             simpleExoPlayer_1.playWhenReady = false
             simpleExoPlayer_4.playWhenReady = false
+            simpleExoPlayer_5.playWhenReady = false
+            simpleExoPlayer_6.playWhenReady = false
         }
 
         mcv_shtrix4.setOnClickListener {
@@ -96,6 +112,26 @@ class MediatorFragment : Fragment() {
             simpleExoPlayer_2.playWhenReady = false
             simpleExoPlayer_3.playWhenReady = false
             simpleExoPlayer_1.playWhenReady = false
+            simpleExoPlayer_5.playWhenReady = false
+            simpleExoPlayer_6.playWhenReady = false
+        }
+
+        mcv_shtrix_up.setOnClickListener {
+            playVideos(exoPlayer, simpleExoPlayer_5, video_up, mcv_video_player)
+            simpleExoPlayer_2.playWhenReady = false
+            simpleExoPlayer_3.playWhenReady = false
+            simpleExoPlayer_1.playWhenReady = false
+            simpleExoPlayer_4.playWhenReady = false
+            simpleExoPlayer_6.playWhenReady = false
+        }
+
+        mcv_shtrix_down.setOnClickListener {
+            playVideos(exoPlayer, simpleExoPlayer_6, video_down, mcv_video_player)
+            simpleExoPlayer_2.playWhenReady = false
+            simpleExoPlayer_3.playWhenReady = false
+            simpleExoPlayer_1.playWhenReady = false
+            simpleExoPlayer_5.playWhenReady = false
+            simpleExoPlayer_4.playWhenReady = false
         }
 
     }
@@ -158,6 +194,8 @@ class MediatorFragment : Fragment() {
         simpleExoPlayer_2.playWhenReady = false
         simpleExoPlayer_3.playWhenReady = false
         simpleExoPlayer_4.playWhenReady = false
+        simpleExoPlayer_5.playWhenReady = false
+        simpleExoPlayer_6.playWhenReady = false
         imv_play_video.visibility = View.VISIBLE
     }
 
@@ -167,6 +205,8 @@ class MediatorFragment : Fragment() {
         simpleExoPlayer_2.playWhenReady = false
         simpleExoPlayer_3.playWhenReady = false
         simpleExoPlayer_4.playWhenReady = false
+        simpleExoPlayer_5.playWhenReady = false
+        simpleExoPlayer_6.playWhenReady = false
         imv_play_video.visibility = View.VISIBLE
     }
 
@@ -176,6 +216,8 @@ class MediatorFragment : Fragment() {
         simpleExoPlayer_2.playWhenReady = false
         simpleExoPlayer_3.playWhenReady = false
         simpleExoPlayer_4.playWhenReady = false
+        simpleExoPlayer_5.playWhenReady = false
+        simpleExoPlayer_6.playWhenReady = false
     }
 
 }

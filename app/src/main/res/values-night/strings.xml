@@ -73,7 +73,7 @@
     <string name="kvarta_type">1-juft tor kichik oktava <b>Lya</b>\n\n2-juft tor kichik oktava <b>Mi</b>\n\n3-yug’on tor katta oktava <b>Si</b></string>
     <string name="kvarta_va_kvinta">Kvarta va kvinta intervallari bo’yicha:</string>
     <string name="qashqar_rubobning_tuzilishi">Qashqar rubobning tuzilishi</string>
-    <string name="_1_quloqlar">1.Quloqlar\n\n2. Rubobning bosh qismi\n\n3. Shayton xarrak\n\n4. Pardalar\n\n5. Dasta6. Teri\n\n7. 1-tor\n\n7. 2-tor\n\n7. 3-tor\n\n10. Xarrak\n\n11. Ilmoqlar\n\n12. Kosa</string>
+    <string name="_1_quloqlar">1.Quloqlar\n\n2. Rubobning bosh qismi\n\n3. Shayton xarrak\n\n4. Pardalar\n\n5. Dasta6. Teri\n\n7. 1-tor\n\n8. 2-tor\n\n9. 3-tor\n\n10. Xarrak\n\n11. Ilmoqlar\n\n12. Kosa</string>
     <string name="andijon_polka">ANDIJON POLKA</string>
     <string name="allegro">Allegro</string>
     <string name="o_zbek_xalq_kuyi">O\'zbek xalq kuyi</string>
@@ -82,4 +82,5 @@
     <string name="qashqarcha">Qashqarcha</string>
     <string name="boris_giyenko_nqayta_ishlangan">Boris Giyenko\nqayta ishlangan</string>
     <string name="andante">Andante</string>
+    <string name="original">Original</string>
 </resources>

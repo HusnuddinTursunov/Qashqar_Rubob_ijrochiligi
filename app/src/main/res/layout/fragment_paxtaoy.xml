@@ -2573,4 +2573,22 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TooManyViews" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mtb_play_original_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-20dp"
+        android:backgroundTint="@color/brown_light_bg"
+        android:rotation="90"
+        android:textAllCaps="false"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:text="@string/original"
+        app:icon="@drawable/icon_play"
+        android:layout_marginTop="@dimen/_60sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mtb_play_button"
+        app:layout_constraintEnd_toEndOf="@+id/mtb_play_button"
+        tools:ignore="TooManyViews" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

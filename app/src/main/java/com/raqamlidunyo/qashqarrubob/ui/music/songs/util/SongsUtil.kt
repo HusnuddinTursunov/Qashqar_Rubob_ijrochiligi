@@ -8,7 +8,7 @@ object SongsUtil {
     {
         val list = ArrayList<Songs>()
         list.add(Songs("PAXTAOY"))
-        list.add(Songs("DO'LCHANA"))
+        list.add(Songs("DO'LONCHA"))
         list.add(Songs("ANDIJON POLKA"))
         list.add(Songs("QASHQARCHA"))
         list.add(Songs("YALLAMA YORIM"))

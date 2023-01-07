@@ -249,7 +249,7 @@ class HelpersFragment : Fragment() {
 
         cl_not = view.findViewById(R.id.cl_not)
 
-        
+
 
         when(position)
         {
@@ -479,7 +479,7 @@ class HelpersFragment : Fragment() {
                 cl_gamma.visibility = View.VISIBLE
                 helpers_image = listOf(mi_1_gamma, fa_1_gamma, sol_1_gamma, lya_1_gamma, si_1_gamma, do_1_gamma, re_1_gamma, mi_2_gamma, fa_2_gamma, sol_2_gamma, lya_2_gamma, si_2_gamma, do_2_gamma, re_2_gamma, mi_3_gamma)
                 helpers_list = HelpersUtil.mi_minor_list()
-                helpers_nots = listOf(mi_2_mi_1, mi_2_fa_2_diyez, mi_2_sol_2, mi_2_lya_2, mi_2_si_2, mi_2_do_2, lya_1_re_1, lya_1_mi_1, lya_1_fa_1_diyez, lya_1_sol_1, lya_1_lya_1, lya_1_si_2, lya_1_do_2, lya_1_re_2, lya_1_mi_2)
+                helpers_nots = listOf(mi_2_mi_1, mi_2_fa_1_diyez, mi_2_sol_1, mi_2_lya_1, mi_2_si_1, mi_2_do_1, lya_1_re_1, lya_1_mi_1, lya_1_fa_1_diyez, lya_1_sol_1, lya_1_lya_1, lya_1_si_2, lya_1_do_2, lya_1_re_2, lya_1_mi_2)
             }
 
             10 ->{
@@ -525,7 +525,7 @@ class HelpersFragment : Fragment() {
                 cl_gamma.visibility = View.VISIBLE
                 helpers_image = listOf(fa_1_gamma, sol_1_gamma, lya_1_gamma, si_1_gamma, do_1_gamma, re_1_gamma, mi_1_gamma, fa_2_gamma, sol_2_gamma, lya_2_gamma, si_2_gamma, do_2_gamma, re_2_gamma, mi_2_gamma,  fa_3_gamma)
                 helpers_list = HelpersUtil.fa_diyez_minor_list()
-                helpers_nots = listOf(mi_2_fa_1_diyez, mi_2_sol_1_diyez, mi_2_lya_1, mi_2_si_1, mi_2_do_1_diyez, mi_2_re_1, lya_1_mi_1, lya_1_fa_1_diyez, lya_1_sol_1_diyez, lya_1_lya_1, lya_1_si_1, lya_1_do_2_diyez, lya_1_re_2, lya_1_mi_2, lya_1_fa_2_diyez)
+                helpers_nots = listOf(mi_2_fa_1_diyez, mi_2_sol_1_diyez, mi_2_lya_1, mi_2_si_1, mi_2_do_1_diyez, mi_2_re_1, lya_1_mi_1, lya_1_fa_1_diyez, lya_1_sol_1_diyez, lya_1_lya_1, lya_1_si_2, lya_1_do_2_diyez, lya_1_re_2, lya_1_mi_2, lya_1_fa_2_diyez)
             }
 
             12 ->{
@@ -617,7 +617,7 @@ class HelpersFragment : Fragment() {
                 cl_gamma.visibility = View.VISIBLE
                 helpers_image = listOf(lya_1_gamma, si_1_gamma, do_1_gamma, re_1_gamma, mi_1_gamma, fa_1_gamma, sol_1_gamma, lya_2_gamma, si_2_gamma, do_2_gamma, re_2_gamma, mi_2_gamma, fa_2_gamma, sol_2_gamma, lya_3_gamma)
                 helpers_list = HelpersUtil.lya_diyez_minor_list()
-                helpers_nots = listOf(lya_3_lya_1_diyez, lya_3_do_2, lya_3_do_2_diyez, lya_3_re_2_diyez, lya_3_fa_2, lya_3_fa_2_diyez, mi_2_sol_1_diyez, mi_2_lya_1_diyez, mi_2_do_1, mi_2_do_1_diyez, lya_1_re_1_diyez, lya_1_fa_1, lya_1_fa_1_diyez, lya_1_sol_1_diyez, lya_1_lya_1_diyez)
+                helpers_nots = listOf(lya_3_si_1_bimol, lya_3_do_1, lya_3_do_1_diyez, lya_3_re_1_diyez, lya_3_fa_1, lya_3_fa_1_diyez, mi_2_sol_1_diyez, mi_2_lya_1_diyez, mi_2_do_1, mi_2_do_1_diyez, lya_1_re_1_diyez, lya_1_fa_1, lya_1_fa_1_diyez, lya_1_sol_1_diyez, lya_1_lya_1_diyez)
             }
 
             16 ->{
@@ -732,7 +732,7 @@ class HelpersFragment : Fragment() {
                 cl_gamma.visibility = View.VISIBLE
                 helpers_image = listOf(re_1_gamma, mi_1_gamma, fa_1_gamma, sol_1_gamma, lya_1_gamma, si_1_gamma, do_1_gamma, re_2_gamma, mi_2_gamma, fa_2_gamma, sol_2_gamma, lya_2_gamma, si_2_gamma, do_2_gamma, re_3_gamma)
                 helpers_list = HelpersUtil.re_bemol_major_list()
-                helpers_nots = listOf(lya_3_do_1_diyez, lya_3_re_1_diyez, lya_3_fa_1, lya_3_fa_1_diyez, mi_2_sol_1_diyez, mi_2_lya_1_diyez, mi_2_do_1, mi_2_do_1_diyez, lya_1_re_1_diyez, lya_1_fa_1, lya_1_fa_1_diyez, lya_1_sol_1_diyez, lya_1_lya_1_diyez, lya_1_do_2, lya_1_re_2_diyez)
+                helpers_nots = listOf(lya_3_do_1_diyez, lya_3_re_1_diyez, lya_3_fa_1, lya_3_fa_1_diyez, mi_2_sol_1_diyez, mi_2_lya_1_diyez, mi_2_do_1, mi_2_do_1_diyez, lya_1_re_1_diyez, lya_1_fa_1, lya_1_fa_1_diyez, lya_1_sol_1_diyez, lya_1_lya_1_diyez, lya_1_do_2, lya_1_do_2_diyez)
             }
 
             21 -> {
@@ -778,7 +778,7 @@ class HelpersFragment : Fragment() {
                 cl_gamma.visibility = View.VISIBLE
                 helpers_image = listOf(do_1_gamma, re_1_gamma, mi_1_gamma, fa_1_gamma, sol_1_gamma, lya_1_gamma, si_1_gamma, do_2_gamma, re_2_gamma, mi_2_gamma, fa_2_gamma, sol_2_gamma, lya_2_gamma, si_2_gamma, do_3_gamma)
                 helpers_list = HelpersUtil.do_bemol_major_list()
-                helpers_nots = listOf(lya_3_si_1, lya_3_do_1_diyez, lya_3_re_1_diyez, lya_3_fa_1, mi_2_fa_1_diyez, mi_2_sol_1_diyez, mi_2_lya_1_diyez, mi_2_do_1, lya_1_do_1_diyez, lya_1_re_1_diyez, lya_1_mi_1, lya_1_fa_1_diyez, lya_1_sol_1_diyez, lya_1_lya_1_diyez, lya_1_si_2)
+                helpers_nots = listOf(lya_3_si_1, lya_3_do_1_diyez, lya_3_re_1_diyez, lya_3_mi_1, mi_2_fa_1_diyez, mi_2_sol_1_diyez, mi_2_lya_1_diyez, mi_2_si_1, lya_1_do_1_diyez, lya_1_re_1_diyez, lya_1_mi_1, lya_1_fa_1_diyez, lya_1_sol_1_diyez, lya_1_lya_1_diyez, lya_1_si_2)
             }
 
             23 ->{
@@ -824,7 +824,7 @@ class HelpersFragment : Fragment() {
                 cl_gamma.visibility = View.VISIBLE
                 helpers_image = listOf(sol_1_gamma, lya_1_gamma, si_1_gamma, do_1_gamma, re_1_gamma, mi_1_gamma, fa_1_gamma, sol_2_gamma, lya_2_gamma, si_2_gamma, do_2_gamma, re_2_gamma, mi_2_gamma, fa_2_gamma, sol_3_gamma)
                 helpers_list = HelpersUtil.sol_minor_list()
-                helpers_nots = listOf(mi_2_sol_1, mi_2_lya_1, mi_2_lya_1_diyez, mi_2_do_1, mi_2_re_1, mi_2_re_1_diyez, lya_1_re_1_diyez, lya_1_fa_1, lya_1_sol_1, lya_1_lya_1_diyez, lya_1_do_2, lya_1_re_2, lya_1_re_2_diyez, lya_1_fa_2, lya_1_sol_2)
+                helpers_nots = listOf(mi_2_sol_1, mi_2_lya_1, mi_2_lya_1_diyez, mi_2_do_1, mi_2_re_1, mi_2_re_1_diyez, lya_1_fa_1, lya_1_sol_1, lya_1_lya_1, lya_1_lya_1_diyez, lya_1_do_2, lya_1_re_2, lya_1_re_2_diyez, lya_1_fa_2, lya_1_sol_2)
             }
 
             25 -> {
@@ -950,6 +950,7 @@ class HelpersFragment : Fragment() {
             val scope = CoroutineScope(Main)
             scope.launch {
                 try {
+                    play_button.isEnabled = false
                     playFirstTor(helpers_list, helpers_image, helpers_nots)
                 } catch (e: Exception) {
                 }
@@ -961,6 +962,7 @@ class HelpersFragment : Fragment() {
 
 
     private suspend fun playFirstTor(helpers_list: List<Int>, helpers_image: List<ImageView>, helpers_nots: List<ImageView>) {
+
 
 
         helpers_image[helpers_image.size - 1].setColorFilter(
@@ -1016,8 +1018,17 @@ class HelpersFragment : Fragment() {
                         )
                     )
 
+                    if (position == 9)
+                    {
+                        helpers_nots[i].visibility = View.INVISIBLE
+                        helpers_nots[i + 1].visibility = View.INVISIBLE
+                        view_line_rubob_2.setBackgroundColor(ContextCompat.getColor(
+                            requireContext(),
+                            android.R.color.holo_red_light
+                        ))
+                    }
 
-                    if (position == 3 || position == 8 || position == 9) {
+                    if (position == 3 || position == 8) {
                         helpers_nots[i].visibility = View.INVISIBLE
                         helpers_nots[i + 1].visibility = View.INVISIBLE
                         view_line_rubob_3.setBackgroundColor(ContextCompat.getColor(
@@ -1106,13 +1117,14 @@ class HelpersFragment : Fragment() {
 
 
                 delay(1000)
+                play_button.isEnabled = true
             } catch (e: Exception) {
                 mediaPlayer.stop()
             }
 
 
         }
-        play_button.isEnabled = true
+
     }
 
     override fun onStop() {

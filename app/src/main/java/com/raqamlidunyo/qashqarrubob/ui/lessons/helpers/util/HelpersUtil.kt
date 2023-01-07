@@ -535,7 +535,7 @@ object HelpersUtil {
         list.add(R.raw.reminor11)
         list.add(R.raw.reminor12)
         list.add(R.raw.reminor13)
-        list.add(R.raw.reminor14)
+        list.add(R.raw.domajor15)
         list.add(R.raw.reminor15)
 
         return list

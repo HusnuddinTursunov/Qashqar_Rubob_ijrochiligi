@@ -27,7 +27,9 @@ import kotlinx.coroutines.launch
 class DolonchaFragment : Fragment() {
 
     private lateinit var play_button: MaterialButton
+    private lateinit var play_button_original: MaterialButton
     private lateinit var mediaPlayer: MediaPlayer
+    private lateinit var mediaPlayer_orginal: MediaPlayer
 
     private lateinit var cl_doloncha1: ConstraintLayout
     private lateinit var cl_doloncha2: ConstraintLayout
@@ -135,14 +137,16 @@ class DolonchaFragment : Fragment() {
     private var count = 0
     private var main_count = 0
 
-    private var isStartFirstTrack:Boolean = true
-    private var isStartFirstTrackReturn:Boolean = true
-    private var isStartFirstTrackSecondReturn:Boolean = true
-    private var isStartSecondTrack:Boolean = true
-    private var isStartSecondTrackReturn:Boolean = true
-    private var isStartThirdTrack:Boolean = true
+    private var isStartFirstTrack: Boolean = true
+    private var isStartFirstTrackReturn: Boolean = true
+    private var isStartFirstTrackSecondReturn: Boolean = true
+    private var isStartSecondTrack: Boolean = true
+    private var isStartSecondTrackReturn: Boolean = true
+    private var isStartThirdTrack: Boolean = true
 
     private var isPlaying: Boolean = false
+    private var isClickButtonOriginal: Boolean = false
+    private var isFinishOriginal:Boolean = false
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -384,6 +388,7 @@ class DolonchaFragment : Fragment() {
         songs_list = DolonchaUtil.dolonchaList()
 
         play_button = view.findViewById(R.id.mtb_play_button)
+        play_button_original = view.findViewById(R.id.mtb_play_original_button)
 
 
 
@@ -397,6 +402,41 @@ class DolonchaFragment : Fragment() {
                 } catch (e: Exception) {
                 }
             }
+        }
+
+        mediaPlayer_orginal = MediaPlayer.create(requireContext(),R.raw.duloncha)
+        mediaPlayer_orginal.setOnCompletionListener {
+            play_button_original.setIconResource(R.drawable.icon_play)
+            play_button_original.text = "Original"
+            isClickButtonOriginal = false
+
+        }
+
+
+        play_button_original.setOnClickListener {
+
+
+            if (!isClickButtonOriginal)
+            {
+                isClickButtonOriginal = true
+                play_button_original.setIconResource(R.drawable.ic_pause)
+                play_button_original.text = "Original"
+                mediaPlayer_orginal.start()
+
+
+                isClickButton = false
+                play_button.setIconResource(R.drawable.icon_play)
+                play_button.text = "Play"
+                isFinishOriginal = true
+            }
+            else{
+                isClickButtonOriginal = false
+                mediaPlayer_orginal.pause()
+                play_button_original.setIconResource(R.drawable.icon_play)
+                play_button_original.text = "Original"
+            }
+
+
         }
     }
 
@@ -415,6 +455,20 @@ class DolonchaFragment : Fragment() {
             delay(500)
             play_button.isEnabled = true
 
+            if (isClickButtonOriginal) {
+                mediaPlayer_orginal.pause()
+//                mediaPlayer_orginal.setOnCompletionListener {
+//                    play_button_original.setIconResource(R.drawable.icon_play)
+//                    play_button_original.text = "Original"
+//                    isClickButtonOriginal = false
+//                }
+                isClickButtonOriginal = false
+                play_button_original.setIconResource(R.drawable.icon_play)
+                play_button_original.text = "Original"
+            }
+
+
+
         } else {
             isClickButton = false
             play_button.setIconResource(R.drawable.icon_play)
@@ -422,6 +476,11 @@ class DolonchaFragment : Fragment() {
             play_button.isEnabled = false
             delay(500)
             play_button.isEnabled = true
+
+
+            isClickButtonOriginal = false
+            play_button_original.setIconResource(R.drawable.icon_play)
+            play_button_original.text = "Original"
 
 
         }
@@ -1093,6 +1152,44 @@ class DolonchaFragment : Fragment() {
 
 
         }
+
+    }
+
+    override fun onStart() {
+        super.onStart()
+        isClickButtonOriginal = false
+    }
+
+    override fun onPause() {
+        super.onPause()
+        mediaPlayer_orginal.pause()
+        isClickButtonOriginal = false
+        isClickButton = false
+        play_button_original.setIconResource(R.drawable.icon_play)
+        play_button.setIconResource(R.drawable.icon_play)
+        play_button.text = "Play"
+    }
+
+    override fun onStop() {
+        super.onStop()
+        mediaPlayer_orginal.pause()
+        isClickButtonOriginal = false
+        isClickButton = false
+        play_button_original.setIconResource(R.drawable.icon_play)
+        play_button.setIconResource(R.drawable.icon_play)
+        play_button.text = "Play"
+
+    }
+
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        mediaPlayer_orginal.pause()
+        isClickButtonOriginal = false
+        isClickButton = false
+        play_button_original.setIconResource(R.drawable.icon_play)
+        play_button.setIconResource(R.drawable.icon_play)
+        play_button.text = "Play"
 
     }
 

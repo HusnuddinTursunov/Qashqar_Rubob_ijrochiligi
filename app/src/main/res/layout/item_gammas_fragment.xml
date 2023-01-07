@@ -16,7 +16,7 @@
         android:textStyle="bold"
         android:fontFamily="@font/times_new_roman"
         android:layout_marginHorizontal="@dimen/_10sdp"
-        android:textSize="@dimen/_14sdp"
+        android:textSize="@dimen/_13sdp"
         android:backgroundTint="@color/brown_light_bg"
         app:cornerRadius="@dimen/_10sdp"
         android:elevation="@dimen/_20sdp"
