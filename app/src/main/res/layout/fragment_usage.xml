@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
     tools:context=".ui.usage.UsageFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -22,7 +23,7 @@
            app:layout_constraintEnd_toEndOf="parent"
            android:layout_marginTop="@dimen/_20sdp"
            android:textStyle="bold"
-           android:textColor="@color/black"
+           android:textColor="#000"
            android:layout_marginStart="@dimen/_10sdp"
            android:textSize="@dimen/_15sdp"
            />
@@ -41,7 +42,7 @@
            android:textSize="@dimen/_14sdp"
            android:justificationMode="inter_word"
            android:padding="@dimen/_10sdp"
-           android:textColor="@color/black"
+           android:textColor="#000"
            />
 
 

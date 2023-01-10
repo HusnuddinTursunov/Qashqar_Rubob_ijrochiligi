@@ -28,7 +28,7 @@
                 android:layout_height="0dp"
                 android:layout_marginTop="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_120sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_1"
@@ -39,7 +39,7 @@
                 android:layout_width="@dimen/_1sdp"
                 android:layout_height="0dp"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 android:layout_marginTop="@dimen/_20sdp"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_1"
@@ -54,7 +54,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_1"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_1"
                 tools:layout_editor_absoluteY="26dp" />
 
@@ -66,7 +66,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_1"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_1" />
 
             <View
@@ -77,7 +77,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_1"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4_paxtaoy_1" />
 
             <ImageView
@@ -90,7 +90,7 @@
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@id/view_line_5_paxtaoy_1"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -103,14 +103,14 @@
                 app:layout_constraintEnd_toEndOf="@id/view_line_1_paxtaoy_1"
                 app:layout_constraintStart_toStartOf="@id/view_line_1_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/start_not_id"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <View
                 android:id="@+id/view_line_6_paxtaoy_1"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_4sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@+id/hash_tag_1_id_paxtaoy_1" />
@@ -120,7 +120,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@+id/view_line_6_paxtaoy_1" />
@@ -131,7 +131,7 @@
                 android:layout_height="@dimen/_4sdp"
                 android:layout_marginTop="@dimen/_2sdp"
                 android:background="@drawable/ring_shape"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@id/view_line_4_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@+id/view_line_7_paxtaoy_1"
@@ -143,7 +143,7 @@
                 android:layout_height="@dimen/_4sdp"
                 android:layout_marginTop="@dimen/_2sdp"
                 android:background="@drawable/ring_shape"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@+id/view_line_7_paxtaoy_1"
@@ -159,7 +159,7 @@
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@+id/dot_2_paxtaoy_1"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -172,7 +172,7 @@
                 app:layout_constraintEnd_toStartOf="@+id/view_line_3_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@id/view_line_5_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@+id/dot_2_paxtaoy_1"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -185,14 +185,14 @@
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_1"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="@dimen/_90sdp"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/icon_f"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 android:rotation="90"
                 android:layout_marginEnd="@dimen/_15sdp"
                 app:layout_constraintEnd_toStartOf="@+id/paxtaoy_1_re_1_aktava"
@@ -209,7 +209,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_re_1_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_re_1_aktava"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -231,7 +231,7 @@
                 android:layout_width="@dimen/_5sdp"
                 android:layout_height="@dimen/_25sdp"
                 android:layout_marginEnd="-3dp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 android:layout_marginTop="@dimen/_106sdp"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_re_1_aktava"
                 app:layout_constraintEnd_toStartOf="@id/view_line_5_paxtaoy_1"
@@ -246,7 +246,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_re_1_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -272,7 +272,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_re_2_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -284,7 +284,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_sol_1_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_1_aktava"
                 android:text="@string/_4"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -306,7 +306,7 @@
                 android:layout_width="@dimen/_4sdp"
                 android:layout_height="@dimen/_25sdp"
                 android:layout_marginEnd="@dimen/_2sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="@dimen/_156sdp"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_1_aktava"
@@ -323,7 +323,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_sol_1_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -341,7 +341,7 @@
                 android:id="@+id/view_line_8_paxtaoy_1"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 android:layout_marginTop="-5dp"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
@@ -356,7 +356,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/view_line_8_paxtaoy_1"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -368,7 +368,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_fa_1_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_fa_1_aktava"
                 android:text="@string/_3"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -390,7 +390,7 @@
                 android:layout_width="@dimen/_4sdp"
                 android:layout_height="@dimen/_51sdp"
                 android:layout_marginEnd="-3dp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 android:layout_marginTop="@dimen/_205sdp"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_fa_2_aktava"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4_paxtaoy_1"
@@ -405,7 +405,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_fa_1_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -425,7 +425,7 @@
                 android:layout_height="@dimen/_25sdp"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginEnd="-3dp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 android:layout_marginTop="@dimen/_229sdp"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_fa_2_aktava"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_1" />
@@ -438,7 +438,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_fa_2_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -450,7 +450,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_sol_3_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_3_aktava"
                 android:text="@string/_4"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -476,7 +476,7 @@
                 android:layout_marginTop="-10dp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_sol_3_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -488,7 +488,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_mi_1_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_mi_1_aktava"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -498,7 +498,7 @@
                 android:id="@+id/view_line_9_paxtaoy_1"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_mi_1_aktava" />
@@ -513,7 +513,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/view_line_9_paxtaoy_1"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -525,7 +525,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_fa_3_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_fa_3_aktava"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -536,7 +536,7 @@
                 android:layout_width="@dimen/_5sdp"
                 android:layout_height="@dimen/_26sdp"
                 android:layout_marginEnd="-4dp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintTop_toTopOf="parent"
                 android:rotation="-5"
                 android:layout_marginTop="@dimen/_298sdp"
@@ -552,7 +552,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_fa_3_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -564,7 +564,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_sol_4_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_4_aktava"
                 android:text="@string/_2"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -580,7 +580,7 @@
                 android:src="@drawable/icon_gamma2"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_sol_4_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -592,7 +592,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_lya_1_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_lya_1_aktava"
                 android:text="@string/_2"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -602,7 +602,7 @@
                 android:id="@+id/paxtaoy_1_lya_1_to_lya_2"
                 android:layout_width="@dimen/_4sdp"
                 android:layout_height="@dimen/_27sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@+id/view_line_4_paxtaoy_1"
                 app:layout_constraintTop_toTopOf="parent"
@@ -621,14 +621,14 @@
                 android:src="@drawable/icon_gamma2"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_lya_1_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <View
                 android:id="@+id/view_line_10_paxtaoy_1"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_lya_2_aktava" />
@@ -645,7 +645,7 @@
                 android:src="@drawable/icon_gamma2"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/view_line_10_paxtaoy_1"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <View
@@ -656,7 +656,7 @@
                 android:layout_marginTop="@dimen/_396sdp"
                 android:layout_marginEnd="-5dp"
                 android:layout_marginBottom="@dimen/_18sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_si_1_aktava"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_lya_3_aktava" />
@@ -672,7 +672,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_lya_3_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -684,7 +684,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_sol_5_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_5_aktava"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -698,7 +698,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="@dimen/_431sdp"
                 android:layout_marginEnd="-3dp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_sol_5_aktava"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_sol_5_aktava" />
@@ -716,7 +716,7 @@
                 android:src="@drawable/icon_gamma4"
                 app:layout_constraintStart_toEndOf="@id/view_line_2_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_1_sol_5_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -728,7 +728,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_1_si_1_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_1_si_1_aktava"
                 android:text="@string/_4"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -739,7 +739,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/icon_gamma2"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 android:rotation="90"
                 android:scaleY="1.1"
                 android:scaleX="1.1"
@@ -755,7 +755,7 @@
                 android:layout_height="@dimen/_4sdp"
                 android:layout_marginTop="-5dp"
                 android:background="@drawable/ring_shape"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@id/view_line_4_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_lya_4_aktava"
@@ -767,7 +767,7 @@
                 android:layout_height="@dimen/_4sdp"
                 android:layout_marginTop="-5dp"
                 android:background="@drawable/ring_shape"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@+id/paxtaoy_1_lya_4_aktava"
@@ -779,7 +779,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
                 app:layout_constraintTop_toBottomOf="@+id/dot_4_paxtaoy_1" />
@@ -789,7 +789,7 @@
                 android:id="@+id/view_line_12_paxtaoy_1"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_4sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 android:layout_marginTop="@dimen/_5sdp"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_1"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_1"
@@ -811,7 +811,7 @@
                 android:layout_height="0dp"
                 android:layout_marginTop="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_120sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_2"
@@ -822,7 +822,7 @@
                 android:layout_width="@dimen/_1sdp"
                 android:layout_height="0dp"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 android:layout_marginTop="@dimen/_20sdp"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_2"
@@ -837,7 +837,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_2"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_2"
                 tools:layout_editor_absoluteY="26dp" />
 
@@ -849,7 +849,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_2"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_2" />
 
             <View
@@ -860,7 +860,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_paxtaoy_2"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4_paxtaoy_2" />
 
             <ImageView
@@ -873,7 +873,7 @@
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_2"
                 app:layout_constraintStart_toEndOf="@id/view_line_5_paxtaoy_2"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -886,14 +886,14 @@
                 app:layout_constraintEnd_toEndOf="@id/view_line_1_paxtaoy_2"
                 app:layout_constraintStart_toStartOf="@id/view_line_1_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/start_not_id_1"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <View
                 android:id="@+id/view_line_6_paxtaoy_2"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_4sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@+id/hash_tag_1_id_paxtaoy_2" />
@@ -903,7 +903,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@+id/view_line_6_paxtaoy_2" />
@@ -914,7 +914,7 @@
                 android:layout_height="@dimen/_4sdp"
                 android:layout_marginTop="@dimen/_2sdp"
                 android:background="@drawable/ring_shape"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_2"
                 app:layout_constraintStart_toEndOf="@id/view_line_4_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@+id/view_line_7_paxtaoy_2"
@@ -926,7 +926,7 @@
                 android:layout_height="@dimen/_4sdp"
                 android:layout_marginTop="@dimen/_2sdp"
                 android:background="@drawable/ring_shape"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_2"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@+id/view_line_7_paxtaoy_2"
@@ -944,7 +944,7 @@
                 app:layout_constraintStart_toEndOf="@id/view_line_2_paxtaoy_2"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="@dimen/_70sdp"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -956,7 +956,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_re_1_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_re_1_aktava"
                 android:text="@string/_4"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -968,7 +968,7 @@
                 android:layout_width="@dimen/_4sdp"
                 android:layout_height="@dimen/_28sdp"
                 android:layout_marginEnd="-5dp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 android:layout_marginTop="@dimen/_90sdp"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_re_1_aktava"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_2"
@@ -983,7 +983,7 @@
                 android:src="@drawable/icon_gamma4"
                 app:layout_constraintStart_toEndOf="@id/view_line_2_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_re_1_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -998,7 +998,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_re_2_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -1011,7 +1011,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_sol_1_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_sol_1_aktava"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -1022,7 +1022,7 @@
                 android:layout_width="@dimen/_4sdp"
                 android:layout_height="@dimen/_25sdp"
                 android:layout_marginEnd="@dimen/_2sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="@dimen/_132sdp"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_sol_1_aktava"
@@ -1039,14 +1039,14 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_sol_1_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <View
                 android:id="@+id/view_line_8_paxtaoy_2"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_sol_2_aktava" />
@@ -1060,7 +1060,7 @@
                 android:src="@drawable/icon_gamma2"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/view_line_8_paxtaoy_2"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -1073,7 +1073,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_fa_1_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_fa_1_aktava"
                 android:text="@string/_3"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -1084,7 +1084,7 @@
                 android:layout_width="@dimen/_3sdp"
                 android:layout_height="@dimen/_54sdp"
                 android:layout_marginEnd="-3dp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 android:rotation="3"
                 android:layout_marginTop="@dimen/_185sdp"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_fa_2_aktava"
@@ -1100,7 +1100,7 @@
                 android:src="@drawable/icon_gamma2"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_fa_1_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <View
@@ -1109,7 +1109,7 @@
                 android:layout_height="@dimen/_27sdp"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginEnd="-3dp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 android:rotation="3"
                 android:layout_marginTop="@dimen/_212sdp"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_fa_2_aktava"
@@ -1123,7 +1123,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_fa_2_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1135,7 +1135,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_sol_3_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_sol_3_aktava"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -1151,7 +1151,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_sol_3_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1163,7 +1163,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_mi_1_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_mi_1_aktava"
                 android:text="@string/_3"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -1174,7 +1174,7 @@
                 android:id="@+id/view_line_9_paxtaoy_2"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_mi_1_aktava" />
@@ -1188,7 +1188,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/view_line_9_paxtaoy_2"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1200,7 +1200,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_fa_3_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_fa_3_aktava"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -1211,7 +1211,7 @@
                 android:layout_width="@dimen/_4sdp"
                 android:layout_height="@dimen/_26sdp"
                 android:layout_marginEnd="-4dp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="@dimen/_283sdp"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_fa_3_aktava"
@@ -1225,7 +1225,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_fa_3_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -1237,7 +1237,7 @@
                 android:src="@drawable/icon_gamma2"
                 app:layout_constraintStart_toEndOf="@id/view_line_2_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_sol_4_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1249,7 +1249,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_lya_1_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_lya_1_aktava"
                 android:text="@string/_4"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -1259,7 +1259,7 @@
                 android:id="@+id/paxtaoy_2_lya_1_to_lya_2"
                 android:layout_width="@dimen/_4sdp"
                 android:layout_height="@dimen/_28sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_2"
                 app:layout_constraintStart_toEndOf="@+id/view_line_4_paxtaoy_2"
                 app:layout_constraintTop_toTopOf="parent"
@@ -1279,14 +1279,14 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_lya_1_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <View
                 android:id="@+id/view_line_10_paxtaoy_2"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_lya_2_aktava" />
@@ -1300,7 +1300,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintStart_toEndOf="@id/view_line_4_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/view_line_10_paxtaoy_2"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1312,7 +1312,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_lya_3_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_lya_3_aktava"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -1337,7 +1337,7 @@
                 android:layout_marginTop="@dimen/_380sdp"
                 android:layout_marginEnd="-4dp"
                 android:layout_marginBottom="@dimen/_18sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 android:rotation="1"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_lya_4_aktava"
                 app:layout_constraintEnd_toStartOf="@id/view_line_5_paxtaoy_2"
@@ -1355,7 +1355,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_lya_3_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1367,7 +1367,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_sol_5_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_sol_5_aktava"
                 android:text="@string/_2"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -1393,7 +1393,7 @@
                 android:layout_marginTop="@dimen/_380sdp"
                 android:layout_marginEnd="-4dp"
                 android:layout_marginBottom="@dimen/_18sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 android:rotation="1"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_lya_4_aktava"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4_paxtaoy_2"
@@ -1409,7 +1409,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@id/paxtaoy_2_sol_5_aktava"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1421,7 +1421,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_si_1_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_si_1_aktava"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -1443,7 +1443,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/icon_gamma3"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 android:rotation="270"
                 app:layout_constraintStart_toEndOf="@id/view_line_4_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_si_1_aktava"
@@ -1458,7 +1458,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_lya_4_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_lya_4_aktava"
                 android:text="@string/_3"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -1480,7 +1480,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/icon_gamma3"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 android:rotation="270"
                 android:layout_marginStart="@dimen/_3sdp"
                 android:layout_marginTop="-5dp"
@@ -1497,7 +1497,7 @@
                 app:layout_constraintTop_toTopOf="@+id/paxtaoy_2_re_4_aktava"
                 app:layout_constraintBottom_toBottomOf="@+id/paxtaoy_2_re_4_aktava"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:textSize="@dimen/_10ssp"
@@ -1510,7 +1510,7 @@
                 android:layout_height="@dimen/_4sdp"
                 android:layout_marginTop="-5dp"
                 android:background="@drawable/ring_shape"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_paxtaoy_2"
                 app:layout_constraintStart_toEndOf="@id/view_line_4_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_re_4_aktava"
@@ -1522,7 +1522,7 @@
                 android:layout_height="@dimen/_4sdp"
                 android:layout_marginTop="-5dp"
                 android:background="@drawable/ring_shape"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_paxtaoy_2"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@+id/paxtaoy_2_re_4_aktava"
@@ -1534,7 +1534,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
                 app:layout_constraintTop_toBottomOf="@+id/dot_4_paxtaoy_2" />
@@ -1544,7 +1544,7 @@
                 android:id="@+id/view_line_12_paxtaoy_2"
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_4sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 android:layout_marginTop="@dimen/_5sdp"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_paxtaoy_2"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_paxtaoy_2"
@@ -1558,15 +1558,16 @@
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="@string/paxtaoy"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:rotation="90"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
             android:fontFamily="@font/playfair_display"
+            android:rotation="90"
+            android:text="@string/paxtaoy"
+            android:textColor="#FFFFFF"
             android:textSize="@dimen/_20ssp"
-            />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/allegretto"
+            app:layout_constraintStart_toStartOf="@+id/allegretto"
+            android:layout_marginStart="@dimen/_50sdp"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/allegretto"
@@ -1575,7 +1576,7 @@
             android:text="@string/allegretto"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:textColor="@color/white"
+            android:textColor="#FFFFFF"
             android:rotation="90"
             android:layout_marginEnd="@dimen/_25sdp"
             android:fontFamily="@font/playfair_display"
@@ -1587,19 +1588,18 @@
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fattoh_nazarov_musiqasi"
-            app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="@dimen/_300sdp"
-            android:textColor="@color/white"
-            android:rotation="90"
-            android:layout_marginEnd="-30dp"
-            android:fontFamily="@font/playfair_display"
-            android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@id/allegretto"
-            android:textSize="@dimen/_15ssp"
             android:layout_marginBottom="@dimen/_70sdp"
+            android:fontFamily="@font/playfair_display"
+            android:rotation="90"
+            android:text="@string/fattoh_nazarov_musiqasi"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            />
+            app:layout_constraintEnd_toEndOf="@+id/allegretto"
+            app:layout_constraintStart_toStartOf="@+id/allegretto"
+            app:layout_constraintTop_toBottomOf="@id/allegretto" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -1621,7 +1621,7 @@
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginEnd="@dimen/_6sdp"
         android:layout_marginBottom="@dimen/_20sdp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
         app:layout_constraintEnd_toStartOf="@+id/view_line_rubob_2"
         app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />
@@ -1633,7 +1633,7 @@
         android:layout_marginStart="-5dp"
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_20sdp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
         app:layout_constraintEnd_toEndOf="@+id/imageView_rubob_tors"
         app:layout_constraintStart_toStartOf="@+id/imageView_rubob_tors"
@@ -1646,7 +1646,7 @@
         android:layout_marginStart="@dimen/_6sdp"
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_20sdp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
         app:layout_constraintStart_toEndOf="@+id/view_line_rubob_2"
         app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />
@@ -2567,6 +2567,8 @@
         android:scaleX="0.7"
         android:scaleY="0.7"
         android:text="@string/play"
+        app:iconTint="#FFFFFF"
+        android:textColor="#FFFFFF"
         app:icon="@drawable/icon_play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -2584,6 +2586,8 @@
         android:scaleX="0.7"
         android:scaleY="0.7"
         android:text="@string/original"
+        android:textColor="#FFFFFF"
+        app:iconTint="#FFFFFF"
         app:icon="@drawable/icon_play"
         android:layout_marginTop="@dimen/_60sdp"
         app:layout_constraintStart_toStartOf="parent"

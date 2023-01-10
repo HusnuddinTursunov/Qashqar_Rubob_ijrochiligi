@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg_white"
     tools:context=".ui.history.HistoryFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -21,7 +22,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="@dimen/_20sdp"
             android:textStyle="bold"
-            android:textColor="@color/black"
+            android:textColor="#000"
             android:layout_marginStart="@dimen/_10sdp"
             android:textSize="@dimen/_15sdp"
             />
@@ -38,7 +39,7 @@
             android:fontFamily="@font/times_new_roman"
             android:layout_marginTop="@dimen/_15sdp"
             android:text="@string/history_text"
-            android:textColor="@color/black"
+            android:textColor="#000"
             android:textSize="@dimen/_14ssp"
             />
 
@@ -134,7 +135,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="@dimen/_20sdp"
             android:textStyle="bold"
-            android:textColor="@color/black"
+            android:textColor="#000"
             android:layout_marginStart="@dimen/_10sdp"
             android:textSize="@dimen/_15sdp"
             />
@@ -148,7 +149,7 @@
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="@dimen/_20sdp"
             android:fontFamily="@font/times_new_roman"
-            android:textColor="@color/black"
+            android:textColor="#000"
             android:textStyle="bold"
             android:layout_marginStart="@dimen/_10sdp"
             android:textSize="@dimen/_12sdp"

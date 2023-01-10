@@ -15,6 +15,6 @@
 
         <!-- Customize your theme here. -->
         <item name="android:navigationBarColor">@color/brown_dark_bg</item>
-
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
     </style>
 </resources>

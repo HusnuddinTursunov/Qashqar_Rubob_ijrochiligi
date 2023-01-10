@@ -3,6 +3,7 @@ package com.raqamlidunyo.qashqarrubob.ui.splash
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -46,10 +47,7 @@ class SplashFragment : Fragment() {
         splashDescription = view.findViewById(R.id.splash_description)
         author_name = view.findViewById(R.id.author_name)
         rubob_image = view.findViewById(R.id.music_id)
-        mediaPlayer = MediaPlayer.create(view.context, R.raw.kirish_orgenal)
-        mediaPlayer.start()
 
-        Log.d("playsong", "onViewCreated: ${mediaPlayer.currentPosition}")
 
         opening()
 
@@ -60,12 +58,8 @@ class SplashFragment : Fragment() {
     private fun opening()
     {
 
-
-        scope.launch {
-            Log.d("playsong", "onViewCreated: ")
-            delay(12000)
-
-        }
+        mediaPlayer = MediaPlayer.create(view?.context, R.raw.kirish_orgenal)
+        mediaPlayer.start()
 
         splashTitle.setOnClickListener {
             findNavController().navigate(R.id.action_splashFragment_to_mainFragment)
@@ -93,15 +87,13 @@ class SplashFragment : Fragment() {
                         author_name.alpha = 1f
                         author_name.startAnimation(AnimationUtils.loadAnimation(requireContext(), R.anim.fade_in))
                     }
-                    if (mediaPlayer.currentPosition == 11480)
+                    if (mediaPlayer.currentPosition >= 11000)
                     {
                         isFinish = true
                         findNavController().navigate(R.id.action_splashFragment_to_mainFragment)
-
                     }
                     if (!isFinish) {
-                        val handler = Handler()
-                        handler.postDelayed(this, 1000)
+                        Handler(Looper.getMainLooper()).postDelayed(this, 1000)
                     }
 
                 }

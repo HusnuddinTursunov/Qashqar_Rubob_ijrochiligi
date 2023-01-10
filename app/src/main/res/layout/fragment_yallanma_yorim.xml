@@ -34,7 +34,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_120sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_12_yallanma_yorim_1"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -46,7 +46,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_12_yallanma_yorim_1"
                     app:layout_constraintEnd_toStartOf="@id/view_line_1_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
@@ -58,7 +58,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_12_yallanma_yorim_1"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
@@ -70,7 +70,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_12_yallanma_yorim_1"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -81,7 +81,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_12_yallanma_yorim_1"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -96,7 +96,7 @@
                     app:layout_constraintEnd_toStartOf="@id/view_line_1_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -110,7 +110,7 @@
                     android:src="@drawable/icon_hash_tag"
                     app:layout_constraintStart_toStartOf="@id/view_line_2_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -119,7 +119,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_4sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_1"
                     app:layout_constraintTop_toBottomOf="@+id/hash_tag_1_id_yallanma_yorim_1" />
@@ -129,7 +129,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_1"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_6_yallanma_yorim_1" />
@@ -140,7 +140,7 @@
                     android:layout_height="@dimen/_4sdp"
                     android:layout_marginTop="@dimen/_2sdp"
                     android:background="@drawable/ring_shape"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_yallanma_yorim_1"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_7_yallanma_yorim_1"
@@ -152,7 +152,7 @@
                     android:layout_height="@dimen/_4sdp"
                     android:layout_marginTop="@dimen/_2sdp"
                     android:background="@drawable/ring_shape"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_7_yallanma_yorim_1"
@@ -168,7 +168,7 @@
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toBottomOf="@+id/dot_2_yallanma_yorim_1"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
 
                     />
@@ -183,7 +183,7 @@
                     app:layout_constraintEnd_toStartOf="@+id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_yallanma_yorim_1"
                     app:layout_constraintTop_toBottomOf="@+id/dot_2_yallanma_yorim_1"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
 
                     />
@@ -198,7 +198,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -219,7 +219,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_1"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_1_si_1"
@@ -233,7 +233,7 @@
                     android:layout_height="@dimen/_56sdp"
                     android:layout_marginTop="@dimen/_123sdp"
                     android:layout_marginEnd="@dimen/_4sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_5_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -244,7 +244,7 @@
                     android:layout_height="@dimen/_25sdp"
                     android:layout_marginTop="@dimen/_153sdp"
                     android:layout_marginEnd="@dimen/_4sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -258,7 +258,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -282,7 +282,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -303,7 +303,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_2"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_1_do_1"
@@ -321,7 +321,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -342,7 +342,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_4"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_1_re_1"
@@ -355,7 +355,7 @@
                     android:layout_height="@dimen/_30sdp"
                     android:layout_marginTop="@dimen/_209sdp"
                     android:layout_marginEnd="@dimen/_4sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -370,7 +370,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -389,7 +389,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_1"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_1_re_2" />
@@ -404,7 +404,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -425,7 +425,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_2"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_1_do_2"
@@ -438,7 +438,7 @@
                     android:layout_height="@dimen/_32sdp"
                     android:layout_marginTop="@dimen/_277sdp"
                     android:layout_marginEnd="@dimen/_9sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -452,7 +452,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -477,7 +477,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -488,7 +488,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_1"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_1_si_3"
@@ -501,7 +501,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_1"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_1_si_3" />
@@ -516,7 +516,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -537,7 +537,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_2"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_1_do_4"
@@ -550,7 +550,7 @@
                     android:layout_height="@dimen/_56sdp"
                     android:layout_marginTop="@dimen/_378sdp"
                     android:layout_marginEnd="@dimen/_9sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:rotation="4"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -561,7 +561,7 @@
                     android:layout_height="@dimen/_26sdp"
                     android:layout_marginTop="@dimen/_408sdp"
                     android:layout_marginEnd="@dimen/_9sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:rotation="4"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -575,7 +575,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -600,7 +600,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -622,7 +622,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_1"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_1_si_4"
@@ -640,7 +640,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -661,7 +661,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_0"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_1_lya_1"
@@ -675,7 +675,7 @@
                     android:layout_height="@dimen/_30sdp"
                     android:layout_marginStart="@dimen/_3sdp"
                     android:layout_marginTop="@dimen/_472sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@id/view_line_1_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -689,7 +689,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -709,7 +709,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_1"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_1_lya_2" />
@@ -725,7 +725,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -746,7 +746,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_1"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_1_si_5"
@@ -759,7 +759,7 @@
                     android:layout_height="@dimen/_30sdp"
                     android:layout_marginTop="@dimen/_539sdp"
                     android:layout_marginEnd="@dimen/_4sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_5_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -773,7 +773,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -798,7 +798,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -808,7 +808,7 @@
                     android:layout_height="@dimen/_4sdp"
                     android:layout_marginBottom="@dimen/_5sdp"
                     android:background="@drawable/ring_shape"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_yallanma_yorim_1"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_1_si_7"
@@ -820,7 +820,7 @@
                     android:layout_height="@dimen/_4sdp"
                     android:layout_marginBottom="@dimen/_5sdp"
                     android:background="@drawable/ring_shape"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_yallanma_yorim_1"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_1_si_7"
@@ -833,7 +833,7 @@
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_5sdp"
                     android:layout_marginBottom="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_1"
                     app:layout_constraintTop_toBottomOf="@+id/dot_4_yallanma_yorim_1" />
@@ -845,7 +845,7 @@
                     android:layout_height="@dimen/_4sdp"
                     android:layout_marginTop="@dimen/_10sdp"
                     android:layout_marginBottom="@dimen/_20sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_1"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_11_yallanma_yorim_1" />
@@ -873,7 +873,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_120sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_yallanma_yorim_2"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -885,7 +885,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_yallanma_yorim_2"
                     app:layout_constraintEnd_toStartOf="@id/view_line_1_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
@@ -897,7 +897,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_yallanma_yorim_2"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
@@ -909,7 +909,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_yallanma_yorim_2"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -920,7 +920,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_yallanma_yorim_2"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -935,7 +935,7 @@
                     app:layout_constraintEnd_toStartOf="@id/view_line_1_yallanma_yorim_2"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -949,7 +949,7 @@
                     android:src="@drawable/icon_hash_tag"
                     app:layout_constraintStart_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription,TooManyViews" />
 
                 <ImageView
@@ -962,7 +962,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription,TooManyViews" />
 
 
@@ -973,7 +973,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_1"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_2_si_1"
@@ -987,7 +987,7 @@
                     android:layout_height="@dimen/_56sdp"
                     android:layout_marginTop="@dimen/_79sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_5_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -998,7 +998,7 @@
                     android:layout_height="@dimen/_26sdp"
                     android:layout_marginTop="@dimen/_108sdp"
                     android:layout_marginEnd="@dimen/_4sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -1012,7 +1012,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -1025,7 +1025,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -1036,7 +1036,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_2"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_2_do_1"
@@ -1054,7 +1054,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -1065,7 +1065,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_1"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_2_re_1"
@@ -1078,7 +1078,7 @@
                     android:layout_height="@dimen/_30sdp"
                     android:layout_marginTop="@dimen/_169sdp"
                     android:layout_marginEnd="@dimen/_4sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -1093,7 +1093,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -1102,7 +1102,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_2"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_2"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_2_re_2" />
@@ -1118,7 +1118,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <View
@@ -1127,7 +1127,7 @@
                     android:layout_height="@dimen/_32sdp"
                     android:layout_marginTop="@dimen/_238sdp"
                     android:layout_marginEnd="@dimen/_6sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -1142,7 +1142,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -1156,7 +1156,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -1165,7 +1165,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_2"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_2"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_2_re_5" />
@@ -1180,7 +1180,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -1201,7 +1201,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_3"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_2_mi_1"
@@ -1214,7 +1214,7 @@
                     android:layout_height="@dimen/_56sdp"
                     android:layout_marginTop="@dimen/_348sdp"
                     android:layout_marginEnd="@dimen/_9sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -1224,7 +1224,7 @@
                     android:layout_height="@dimen/_26sdp"
                     android:layout_marginTop="@dimen/_378sdp"
                     android:layout_marginEnd="@dimen/_9sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -1237,7 +1237,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -1260,7 +1260,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -1285,7 +1285,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <View
@@ -1294,7 +1294,7 @@
                     android:layout_height="@dimen/_32sdp"
                     android:layout_marginTop="@dimen/_427sdp"
                     android:layout_marginEnd="@dimen/_9sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -1308,7 +1308,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -1317,7 +1317,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_2"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_2"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_2_mi_5" />
@@ -1333,7 +1333,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -1354,7 +1354,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_4"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_2_re_6"
@@ -1367,7 +1367,7 @@
                     android:layout_height="@dimen/_57sdp"
                     android:layout_marginTop="@dimen/_497sdp"
                     android:layout_marginEnd="@dimen/_12sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:rotation="3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1378,7 +1378,7 @@
                     android:layout_height="@dimen/_25sdp"
                     android:layout_marginTop="@dimen/_528sdp"
                     android:layout_marginEnd="@dimen/_11sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:rotation="3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1394,7 +1394,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -1417,7 +1417,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -1438,7 +1438,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_2"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_2_do_2"
@@ -1455,7 +1455,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <com.google.android.material.textview.MaterialTextView
@@ -1465,7 +1465,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_1"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_2_si_3"
@@ -1478,7 +1478,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_2"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_2"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_2_si_3" />
@@ -1507,7 +1507,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_120sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_13_yallanma_yorim_3"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -1519,7 +1519,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_13_yallanma_yorim_3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_1_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
@@ -1531,7 +1531,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_13_yallanma_yorim_3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
@@ -1543,7 +1543,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_13_yallanma_yorim_3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1554,7 +1554,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_13_yallanma_yorim_3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1569,7 +1569,7 @@
                     app:layout_constraintEnd_toStartOf="@id/view_line_1_yallanma_yorim_3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -1583,7 +1583,7 @@
                     android:src="@drawable/icon_hash_tag"
                     app:layout_constraintStart_toStartOf="@id/view_line_2_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription,TooManyViews" />
 
                 <ImageView
@@ -1595,7 +1595,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription,TooManyViews" />
 
 
@@ -1606,7 +1606,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_3"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_3_mi_1"
@@ -1620,7 +1620,7 @@
                     android:layout_height="@dimen/_56sdp"
                     android:layout_marginTop="@dimen/_78sdp"
                     android:layout_marginEnd="@dimen/_3sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -1630,7 +1630,7 @@
                     android:layout_height="@dimen/_25sdp"
                     android:layout_marginTop="@dimen/_108sdp"
                     android:layout_marginEnd="@dimen/_3sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -1643,7 +1643,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription,TooManyViews" />
 
                 <ImageView
@@ -1655,7 +1655,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription,TooManyViews" />
 
 
@@ -1668,7 +1668,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription,TooManyViews" />
 
                 <View
@@ -1677,7 +1677,7 @@
                     android:layout_height="@dimen/_31sdp"
                     android:layout_marginTop="@dimen/_163sdp"
                     android:layout_marginEnd="@dimen/_3sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -1690,7 +1690,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription,TooManyViews" />
 
 
@@ -1699,7 +1699,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_3"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_3_mi_5" />
@@ -1715,7 +1715,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -1736,7 +1736,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_1"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_3_re_1"
@@ -1750,7 +1750,7 @@
                     android:layout_height="@dimen/_61sdp"
                     android:layout_marginTop="@dimen/_233sdp"
                     android:layout_marginEnd="@dimen/_2sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:rotation="3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_5_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1762,7 +1762,7 @@
                     android:layout_height="@dimen/_61sdp"
                     android:layout_marginTop="@dimen/_233sdp"
                     android:layout_marginEnd="@dimen/_2sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:rotation="4"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1776,7 +1776,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -1798,7 +1798,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_3"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_3_mi_6"
@@ -1816,7 +1816,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -1840,7 +1840,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -1861,7 +1861,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_2"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_3_do_1"
@@ -1879,7 +1879,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -1890,7 +1890,7 @@
                     android:fontFamily="@font/times_new_roman"
                     android:rotation="90"
                     android:text="@string/_1"
-                    android:textColor="@android:color/white"
+                    android:textColor="#FFFFFF"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_3_si_1"
@@ -1903,7 +1903,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_3"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_3_si_1" />
@@ -1919,7 +1919,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -1929,7 +1929,7 @@
                     android:layout_height="@dimen/_56sdp"
                     android:layout_marginTop="@dimen/_368sdp"
                     android:layout_marginEnd="@dimen/_4sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_5_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -1939,7 +1939,7 @@
                     android:layout_height="@dimen/_26sdp"
                     android:layout_marginTop="@dimen/_398sdp"
                     android:layout_marginEnd="@dimen/_4sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -1953,7 +1953,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -1965,7 +1965,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -1979,7 +1979,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <View
@@ -1988,7 +1988,7 @@
                     android:layout_height="@dimen/_30sdp"
                     android:layout_marginTop="@dimen/_454sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -2002,7 +2002,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <View
@@ -2010,7 +2010,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_3"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_3_re_4" />
@@ -2025,7 +2025,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <View
@@ -2034,7 +2034,7 @@
                     android:layout_height="@dimen/_30sdp"
                     android:layout_marginTop="@dimen/_523sdp"
                     android:layout_marginEnd="@dimen/_8sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -2047,7 +2047,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -2059,7 +2059,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -2068,7 +2068,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_3"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_3_si_4" />
@@ -2082,7 +2082,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_11_yallanma_yorim_3"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <View
@@ -2091,7 +2091,7 @@
                     android:layout_height="@dimen/_56sdp"
                     android:layout_marginTop="@dimen/_8sdp"
                     android:layout_marginEnd="@dimen/_9sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:rotation="4"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_11_yallanma_yorim_3" />
@@ -2103,7 +2103,7 @@
                     android:layout_height="@dimen/_25sdp"
                     android:layout_marginTop="@dimen/_38sdp"
                     android:layout_marginEnd="@dimen/_8sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:rotation="4"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_11_yallanma_yorim_3" />
@@ -2118,7 +2118,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_11_yallanma_yorim_3"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <ImageView
@@ -2131,7 +2131,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_11_yallanma_yorim_3"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -2145,7 +2145,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_11_yallanma_yorim_3"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <View
@@ -2154,7 +2154,7 @@
                     android:layout_height="@dimen/_31sdp"
                     android:layout_marginStart="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_101sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintStart_toEndOf="@id/view_line_1_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_11_yallanma_yorim_3" />
 
@@ -2169,7 +2169,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_11_yallanma_yorim_3"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -2178,7 +2178,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_3"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_3_lya_2" />
@@ -2194,7 +2194,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_12_yallanma_yorim_3"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
                 <View
@@ -2204,7 +2204,7 @@
                     android:layout_marginStart="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_170sdp"
                     android:layout_marginEnd="@dimen/_4sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@id/view_line_5_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_11_yallanma_yorim_3" />
 
@@ -2219,7 +2219,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_12_yallanma_yorim_3"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -2233,7 +2233,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_12_yallanma_yorim_3"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription" />
 
 
@@ -2242,7 +2242,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_3"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_3"
                     app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_3_si_8" />
@@ -2270,7 +2270,7 @@
                 android:layout_height="0dp"
                 android:layout_marginTop="@dimen/_25sdp"
                 android:layout_marginEnd="@dimen/_120sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_yallanma_yorim_4"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -2282,7 +2282,7 @@
                 android:layout_height="0dp"
                 android:layout_marginTop="@dimen/_25sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_yallanma_yorim_4"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
@@ -2294,7 +2294,7 @@
                 android:layout_height="0dp"
                 android:layout_marginTop="@dimen/_25sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_yallanma_yorim_4"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
@@ -2306,7 +2306,7 @@
                 android:layout_height="0dp"
                 android:layout_marginTop="@dimen/_25sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_yallanma_yorim_4"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -2317,7 +2317,7 @@
                 android:layout_height="0dp"
                 android:layout_marginTop="@dimen/_25sdp"
                 android:layout_marginEnd="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintBottom_toBottomOf="@+id/view_line_12_yallanma_yorim_4"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -2332,7 +2332,7 @@
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_yallanma_yorim_4"
                 app:layout_constraintStart_toEndOf="@id/view_line_5_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -2346,7 +2346,7 @@
                 android:src="@drawable/icon_hash_tag"
                 app:layout_constraintStart_toStartOf="@id/view_line_2_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription,TooManyViews" />
 
             <ImageView
@@ -2359,7 +2359,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -2369,7 +2369,7 @@
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_10ssp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_4_si_1"
@@ -2384,7 +2384,7 @@
                 android:layout_marginStart="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_78sdp"
                 android:layout_marginEnd="@dimen/_4sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_5_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -2396,7 +2396,7 @@
                 android:layout_marginStart="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_108sdp"
                 android:layout_marginEnd="@dimen/_4sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -2411,7 +2411,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -2423,7 +2423,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -2437,7 +2437,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -2449,7 +2449,7 @@
                 android:layout_marginStart="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_163sdp"
                 android:layout_marginEnd="@dimen/_4sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -2463,7 +2463,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -2472,7 +2472,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_4"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_4"
                 app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_4_re_2" />
@@ -2487,7 +2487,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -2508,7 +2508,7 @@
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:text="@string/_2"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_10ssp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_4_do_2"
@@ -2522,7 +2522,7 @@
                 android:layout_marginStart="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_238sdp"
                 android:layout_marginEnd="@dimen/_8sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -2533,7 +2533,7 @@
                 android:layout_marginStart="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_268sdp"
                 android:layout_marginEnd="@dimen/_8sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -2546,7 +2546,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -2571,7 +2571,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -2593,7 +2593,7 @@
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:text="@string/_4"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_10ssp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_4_re_3"
@@ -2611,7 +2611,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -2623,7 +2623,7 @@
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_10ssp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_4_si_3"
@@ -2635,7 +2635,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_4"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_4"
                 app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_4_si_3" />
@@ -2650,7 +2650,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -2671,7 +2671,7 @@
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:text="@string/_2"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_10ssp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_4_do_4"
@@ -2685,7 +2685,7 @@
                 android:layout_marginStart="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_378sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -2695,7 +2695,7 @@
                 android:layout_height="@dimen/_26sdp"
                 android:layout_marginTop="@dimen/_408sdp"
                 android:layout_marginEnd="@dimen/_9sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -2709,7 +2709,7 @@
                 android:src="@drawable/icon_gamma3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -2733,7 +2733,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -2754,7 +2754,7 @@
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_10ssp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_4_si_4"
@@ -2773,7 +2773,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -2795,7 +2795,7 @@
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:text="@string/_0"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_10ssp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_4_lya_1"
@@ -2809,7 +2809,7 @@
                 android:layout_height="@dimen/_57sdp"
                 android:layout_marginTop="@dimen/_466sdp"
                 android:layout_marginStart="@dimen/_4sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@id/view_line_1_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -2819,7 +2819,7 @@
                 android:layout_height="@dimen/_31sdp"
                 android:layout_marginTop="@dimen/_466sdp"
                 android:layout_marginStart="@dimen/_4sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@id/view_line_2_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -2834,7 +2834,7 @@
                 android:layout_marginStart="@dimen/_3sdp"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -2855,7 +2855,7 @@
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_10ssp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_4_si_5"
@@ -2873,7 +2873,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -2894,7 +2894,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_4"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_4"
                 app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_4_lya_2" />
@@ -2911,7 +2911,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -2922,7 +2922,7 @@
                 android:fontFamily="@font/times_new_roman"
                 android:rotation="90"
                 android:text="@string/_1"
-                android:textColor="@android:color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_10ssp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/yallanma_yorim_4_si_6"
@@ -2936,7 +2936,7 @@
                 android:layout_height="@dimen/_31sdp"
                 android:layout_marginTop="@dimen/_553sdp"
                 android:layout_marginEnd="@dimen/_4sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_5_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -2950,7 +2950,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -2964,7 +2964,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_yallanma_yorim_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -2973,7 +2973,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_2sdp"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_4"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_4"
                 app:layout_constraintTop_toBottomOf="@+id/yallanma_yorim_4_si_8" />
@@ -2984,7 +2984,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_4sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@+id/view_line_1_yallanma_yorim_4"
                 app:layout_constraintStart_toEndOf="@+id/view_line_5_yallanma_yorim_4"
                 app:layout_constraintTop_toBottomOf="@+id/view_line_11_yallanma_yorim_4" />
@@ -2998,17 +2998,17 @@
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="YALLANMA YORIM\n(O'zbek xalq kuyi)"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:textAlignment="center"
-            android:layout_marginEnd="-50dp"
-            android:rotation="90"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
             android:fontFamily="@font/playfair_display"
+            android:rotation="90"
+            android:text="@string/yallama_yorim"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
             android:textSize="@dimen/_17ssp"
-            />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/allegretto"
+            android:layout_marginStart="@dimen/_15sdp"
+            app:layout_constraintStart_toStartOf="@+id/allegretto"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/allegretto"
@@ -3017,7 +3017,7 @@
             android:text="@string/andante"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:textColor="@color/white"
+            android:textColor="#FFFFFF"
             android:rotation="90"
             android:layout_marginEnd="@dimen/_25sdp"
             android:fontFamily="@font/playfair_display"
@@ -3032,7 +3032,7 @@
             android:text="@string/feoktist_vasilyev_nqayta_ishlangan"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="@dimen/_320sdp"
-            android:textColor="@color/white"
+            android:textColor="#FFFFFF"
             android:rotation="90"
             android:fontFamily="@font/playfair_display"
             android:textStyle="bold"
@@ -3064,7 +3064,7 @@
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginEnd="@dimen/_6sdp"
         android:layout_marginBottom="@dimen/_20sdp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
         app:layout_constraintEnd_toStartOf="@+id/view_line_rubob_2"
         app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />
@@ -3076,7 +3076,7 @@
         android:layout_marginStart="-5dp"
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_20sdp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
         app:layout_constraintEnd_toEndOf="@+id/imageView_rubob_tors"
         app:layout_constraintStart_toStartOf="@+id/imageView_rubob_tors"
@@ -3089,7 +3089,7 @@
         android:layout_marginStart="@dimen/_6sdp"
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_20sdp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
         app:layout_constraintStart_toEndOf="@+id/view_line_rubob_2"
         app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />
@@ -4010,6 +4010,8 @@
         android:scaleX="0.7"
         android:scaleY="0.7"
         android:text="@string/play"
+        app:iconTint="#FFFFFF"
+        android:textColor="#FFFFFF"
         app:icon="@drawable/icon_play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -4027,6 +4029,8 @@
         android:scaleX="0.7"
         android:scaleY="0.7"
         android:text="@string/original"
+        app:iconTint="#FFFFFF"
+        android:textColor="#FFFFFF"
         app:icon="@drawable/icon_play"
         android:layout_marginTop="@dimen/_60sdp"
         app:layout_constraintStart_toStartOf="parent"

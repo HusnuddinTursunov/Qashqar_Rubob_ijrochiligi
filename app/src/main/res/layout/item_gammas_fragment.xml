@@ -16,11 +16,12 @@
         android:textStyle="bold"
         android:fontFamily="@font/times_new_roman"
         android:layout_marginHorizontal="@dimen/_10sdp"
-        android:textSize="@dimen/_13sdp"
+        android:textSize="@dimen/_12sdp"
         android:backgroundTint="@color/brown_light_bg"
         app:cornerRadius="@dimen/_10sdp"
         android:elevation="@dimen/_20sdp"
         app:elevation="@dimen/_20sdp"
+        android:textColor="#FFFFFF"
         android:layout_marginVertical="@dimen/_5sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         />

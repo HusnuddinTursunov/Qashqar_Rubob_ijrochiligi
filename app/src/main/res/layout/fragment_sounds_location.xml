@@ -20,6 +20,8 @@
         android:text="@string/mbt_1_tor"
         android:textAllCaps="false"
         android:textSize="@dimen/_15ssp"
+        app:iconTint="#FFFFFF"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:scaleY="0.7"
         android:scaleX="0.7"
@@ -40,6 +42,8 @@
         android:text="@string/mbt_2_tor"
         android:textAllCaps="false"
         android:textSize="@dimen/_15ssp"
+        app:iconTint="#FFFFFF"
+        android:textColor="#FFFFFF"
         android:scaleY="0.7"
         android:scaleX="0.7"
         android:textStyle="bold"
@@ -62,12 +66,14 @@
         app:icon="@drawable/icon_play"
         android:scaleY="0.7"
         android:scaleX="0.7"
+        app:iconTint="#FFFFFF"
+        android:textColor="#FFFFFF"
         android:textSize="@dimen/_15ssp"
         android:textStyle="bold"
         app:fontFamily="@font/playfair_display"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginBottom="@dimen/_100sdp"
+        android:layout_marginBottom="@dimen/_90sdp"
         />
 
 
@@ -97,7 +103,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_70sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent" />
 
             <View
@@ -106,7 +112,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_7sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1" />
 
             <View
@@ -115,7 +121,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_7sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2" />
 
             <View
@@ -124,7 +130,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_7sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3" />
 
             <View
@@ -133,7 +139,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_7sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4" />
 
             <ImageView
@@ -146,7 +152,7 @@
                 app:layout_constraintStart_toEndOf="@id/view_line_5"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="-20dp"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -160,7 +166,7 @@
                 app:layout_constraintStart_toEndOf="@id/view_line_3"
                 app:layout_constraintTop_toBottomOf="@id/start_not_id"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -172,7 +178,7 @@
                 android:layout_marginBottom="@dimen/_5sdp"
                 android:rotation="90"
                 android:text="@string/lya"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -190,7 +196,7 @@
                 android:src="@drawable/icon_not2"
                 app:layout_constraintStart_toEndOf="@id/view_line_5"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -199,7 +205,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/si"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -219,7 +225,7 @@
                 android:layout_marginStart="@dimen/_3sdp"
                 app:layout_constraintStart_toEndOf="@id/view_line_5"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -228,7 +234,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/_do"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -249,7 +255,7 @@
                 android:src="@drawable/icon_not2"
                 app:layout_constraintStart_toEndOf="@id/view_line_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -258,7 +264,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/re"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -278,7 +284,7 @@
                 android:layout_marginStart="@dimen/_4sdp"
                 app:layout_constraintStart_toEndOf="@id/view_line_4"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -287,7 +293,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/mi"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -306,7 +312,7 @@
                 android:src="@drawable/icon_not2"
                 app:layout_constraintStart_toEndOf="@id/view_line_3"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -315,7 +321,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/fa"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -335,7 +341,7 @@
                 android:layout_marginStart="@dimen/_5sdp"
                 app:layout_constraintStart_toStartOf="@id/view_line_3"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -344,7 +350,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/sol"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -364,7 +370,7 @@
                 android:src="@drawable/icon_not3"
                 app:layout_constraintStart_toStartOf="@id/view_line_3"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -373,7 +379,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/lya"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -393,7 +399,7 @@
                 android:src="@drawable/icon_not5"
                 app:layout_constraintStart_toStartOf="@id/view_line_2"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -402,7 +408,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/si"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -422,7 +428,7 @@
                 android:src="@drawable/icon_not4"
                 app:layout_constraintStart_toStartOf="@id/view_line_2"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -432,7 +438,7 @@
                 android:layout_marginTop="@dimen/_5sdp"
                 android:rotation="90"
                 android:text="@string/_do"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -452,7 +458,7 @@
                 android:src="@drawable/icon_not6"
                 app:layout_constraintStart_toStartOf="@id/view_line_2"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -461,7 +467,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/re"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -481,7 +487,7 @@
                 android:src="@drawable/icon_not7"
                 app:layout_constraintStart_toStartOf="@id/view_line_2"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -490,7 +496,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/mi"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -510,7 +516,7 @@
                 android:src="@drawable/icon_not10"
                 app:layout_constraintStart_toStartOf="@id/view_line_3"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -519,7 +525,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/fa"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -539,7 +545,7 @@
                 android:src="@drawable/icon_not8"
                 app:layout_constraintStart_toStartOf="@id/view_line_1"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -548,7 +554,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/sol"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -568,7 +574,7 @@
                 android:src="@drawable/icon_not9"
                 app:layout_constraintStart_toStartOf="@id/view_line_1"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -577,7 +583,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/lya"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -604,7 +610,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_70sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent" />
 
             <View
@@ -613,7 +619,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_7sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_2_tor" />
 
             <View
@@ -622,7 +628,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_7sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_2_tor" />
 
             <View
@@ -631,7 +637,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_7sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_2_tor" />
 
             <View
@@ -640,7 +646,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_7sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4_2_tor" />
 
             <ImageView
@@ -652,7 +658,7 @@
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_2_tor"
                 app:layout_constraintStart_toEndOf="@id/view_line_5_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 android:layout_marginTop="-30dp"
                 tools:ignore="ContentDescription" />
 
@@ -665,7 +671,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="@dimen/_30sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_2_tor"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -675,7 +681,7 @@
                 android:layout_marginTop="@dimen/_4sdp"
                 android:rotation="90"
                 android:text="@string/mi"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -694,7 +700,7 @@
                 android:layout_marginEnd="@dimen/_4sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -705,7 +711,7 @@
 
                 android:rotation="90"
                 android:text="@string/fa"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -725,7 +731,7 @@
                 android:layout_marginEnd="@dimen/_8sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -736,7 +742,7 @@
 
                 android:rotation="90"
                 android:text="@string/sol"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -756,7 +762,7 @@
                 android:layout_marginTop="@dimen/_120sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -766,7 +772,7 @@
                 android:layout_marginTop="@dimen/_5sdp"
                 android:rotation="90"
                 android:text="@string/lya"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -786,7 +792,7 @@
                 android:layout_marginTop="@dimen/_150sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -795,7 +801,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/si"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -815,7 +821,7 @@
                 android:layout_marginTop="@dimen/_180sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -824,7 +830,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/_do"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -844,7 +850,7 @@
                 android:layout_marginTop="@dimen/_210sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -853,7 +859,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/re"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -873,7 +879,7 @@
                 android:layout_marginEnd="@dimen/_2sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -882,7 +888,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/mi"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -902,7 +908,7 @@
                 android:layout_marginTop="@dimen/_270sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -911,7 +917,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/fa"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -931,7 +937,7 @@
                 android:layout_marginTop="@dimen/_300sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -941,7 +947,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/sol"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -961,7 +967,7 @@
                 android:layout_marginTop="@dimen/_330sdp"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -970,7 +976,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/lya"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -990,7 +996,7 @@
                 android:layout_marginTop="@dimen/_360sdp"
                 app:layout_constraintStart_toEndOf="@id/view_line_2_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -999,7 +1005,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/si"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1019,7 +1025,7 @@
                 android:src="@drawable/icon_not4"
                 app:layout_constraintEnd_toEndOf="@id/view_line_1_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1028,7 +1034,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/_do"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1047,7 +1053,7 @@
                 android:src="@drawable/icon_not6"
                 app:layout_constraintStart_toEndOf="@id/view_line_1_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1056,7 +1062,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/re"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1076,7 +1082,7 @@
                 android:layout_marginStart="@dimen/_2sdp"
                 app:layout_constraintStart_toEndOf="@id/view_line_1_2_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1085,7 +1091,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/mi"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1112,7 +1118,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_50sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 tools:ignore="TooManyViews" />
 
@@ -1122,7 +1128,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_7sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_3_tor" />
 
             <View
@@ -1131,7 +1137,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_7sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_3_tor" />
 
             <View
@@ -1140,7 +1146,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_7sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_3_tor" />
 
             <View
@@ -1149,7 +1155,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginVertical="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_7sdp"
-                android:background="@color/white"
+                android:background="#FFFFFF"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4_3_tor" />
 
             <ImageView
@@ -1162,7 +1168,7 @@
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_3_tor"
                 app:layout_constraintStart_toEndOf="@id/view_line_5_3_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
 
@@ -1177,7 +1183,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/view_line_4_3_tor"
                 app:layout_constraintTop_toBottomOf="@id/start_not_id_3_tor"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1187,7 +1193,7 @@
                 android:layout_marginTop="@dimen/_4sdp"
                 android:rotation="90"
                 android:text="@string/lya"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1207,7 +1213,7 @@
                 android:src="@drawable/icon_not5"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_3_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1218,7 +1224,7 @@
                 android:layout_marginEnd="@dimen/_115sdp"
                 android:rotation="90"
                 android:text="@string/si"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1238,7 +1244,7 @@
                 android:src="@drawable/icon_not3"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_3_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1248,7 +1254,7 @@
                 android:layout_marginTop="@dimen/_5sdp"
                 android:rotation="90"
                 android:text="@string/_do"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1268,7 +1274,7 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_3_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1278,7 +1284,7 @@
                 android:layout_marginTop="@dimen/_5sdp"
                 android:rotation="90"
                 android:text="@string/re"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1298,7 +1304,7 @@
                 android:src="@drawable/icon_not2"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_3_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1308,7 +1314,7 @@
                 android:layout_marginTop="@dimen/_5sdp"
                 android:rotation="90"
                 android:text="@string/mi"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1328,7 +1334,7 @@
                 android:src="@drawable/icon_not2"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_3_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1338,7 +1344,7 @@
                 android:layout_marginTop="@dimen/_5sdp"
                 android:rotation="90"
                 android:text="@string/fa"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1358,7 +1364,7 @@
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_3_tor"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="@dimen/_210sdp"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1368,7 +1374,7 @@
                 android:layout_marginTop="@dimen/_6sdp"
                 android:rotation="90"
                 android:text="@string/sol"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1388,7 +1394,7 @@
                 android:layout_marginTop="@dimen/_240sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_3_tor"
                 app:layout_constraintTop_toTopOf="parent"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1398,7 +1404,7 @@
                 android:layout_marginTop="@dimen/_6sdp"
                 android:rotation="90"
                 android:text="@string/lya"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1417,7 +1423,7 @@
                 android:layout_marginEnd="@dimen/_6sdp"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_3_tor"
                 app:layout_constraintTop_toBottomOf="@id/lya_2_3_tor"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1426,7 +1432,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/si"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1445,7 +1451,7 @@
                 android:src="@drawable/icon_not2"
                 app:layout_constraintEnd_toStartOf="@id/view_line_3_3_tor"
                 app:layout_constraintTop_toBottomOf="@id/si_2_3_tor"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1454,7 +1460,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/_do"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1473,7 +1479,7 @@
                 android:src="@drawable/icon_not2"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_3_tor"
                 app:layout_constraintTop_toBottomOf="@id/do_2_3_tor"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1482,7 +1488,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/re"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1502,7 +1508,7 @@
                 android:src="@drawable/icon_not2"
                 app:layout_constraintEnd_toStartOf="@id/view_line_2_3_tor"
                 app:layout_constraintTop_toBottomOf="@id/re_2_3_tor"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1511,7 +1517,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/mi"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1530,7 +1536,7 @@
                 android:src="@drawable/icon_not2"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_3_tor"
                 app:layout_constraintTop_toBottomOf="@id/mi_2_3_tor"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1539,7 +1545,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/fa"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1558,7 +1564,7 @@
                 android:src="@drawable/icon_not2"
                 app:layout_constraintEnd_toStartOf="@id/view_line_1_3_tor"
                 app:layout_constraintTop_toBottomOf="@id/fa_2_3_tor"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1567,7 +1573,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/sol"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1586,7 +1592,7 @@
                 android:src="@drawable/icon_not3"
                 app:layout_constraintStart_toEndOf="@id/view_line_3_3_tor"
                 app:layout_constraintTop_toBottomOf="@id/sol_2_3_tor"
-                app:tint="@color/white"
+                app:tint="#FFFFFF"
                 tools:ignore="ContentDescription" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -1595,7 +1601,7 @@
                 android:layout_height="wrap_content"
                 android:rotation="90"
                 android:text="@string/lya"
-                android:textColor="@color/white"
+                android:textColor="#FFFFFF"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
                 app:fontFamily="@font/playfair_display"
@@ -1628,7 +1634,7 @@
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginEnd="@dimen/_6sdp"
         android:layout_marginBottom="@dimen/_20sdp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
         app:layout_constraintEnd_toStartOf="@+id/view_line_rubob_2"
         app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />
@@ -1640,7 +1646,7 @@
         android:layout_marginStart="-5dp"
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_20sdp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
         app:layout_constraintEnd_toEndOf="@+id/imageView_rubob_tors"
         app:layout_constraintStart_toStartOf="@+id/imageView_rubob_tors"
@@ -1653,7 +1659,7 @@
         android:layout_marginStart="@dimen/_6sdp"
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_20sdp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
         app:layout_constraintStart_toEndOf="@+id/view_line_rubob_2"
         app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />

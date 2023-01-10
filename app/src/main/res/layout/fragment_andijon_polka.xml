@@ -36,7 +36,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_120sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_12_andijon_polka_1"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -48,7 +48,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_12_andijon_polka_1"
                     app:layout_constraintEnd_toStartOf="@id/view_line_1_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
@@ -60,7 +60,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_12_andijon_polka_1"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
@@ -72,7 +72,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_12_andijon_polka_1"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -83,7 +83,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_12_andijon_polka_1"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -98,7 +98,7 @@
                     app:layout_constraintEnd_toStartOf="@id/view_line_1_andijon_polka_1"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -112,7 +112,7 @@
                     app:layout_constraintEnd_toEndOf="@id/view_line_1_andijon_polka_1"
                     app:layout_constraintStart_toStartOf="@id/view_line_1_andijon_polka_1"
                     app:layout_constraintTop_toBottomOf="@id/start_not_id"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
 
                     />
@@ -127,7 +127,7 @@
                     android:src="@drawable/icon_hash_tag"
                     app:layout_constraintStart_toStartOf="@id/view_line_3_andijon_polka_1"
                     app:layout_constraintTop_toBottomOf="@id/hash_tag_1_id_andijon_polka_1"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
 
                      />
@@ -136,7 +136,7 @@
                     android:id="@+id/view_line_6_andijon_polka_1"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_4sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toBottomOf="@+id/hash_tag_2_id_andijon_polka_1" />
@@ -146,7 +146,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toBottomOf="@+id/view_line_6_andijon_polka_1" />
@@ -185,7 +185,7 @@
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_1"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_andijon_polka_1"
                     app:layout_constraintTop_toBottomOf="@+id/dot_2_andijon_polka_1"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
 
                      />
@@ -200,7 +200,7 @@
                     app:layout_constraintEnd_toStartOf="@+id/view_line_3_andijon_polka_1"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toBottomOf="@+id/dot_2_andijon_polka_1"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
 
                      />
@@ -215,7 +215,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -256,7 +256,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -291,7 +291,7 @@
                     android:id="@+id/view_line_8_andijon_polka_1"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toBottomOf="@+id/andijon_polka_1_do_1" />
@@ -307,7 +307,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -315,7 +315,7 @@
                     android:id="@+id/andijon_polka_1_re_1_to_re_2"
                     android:layout_width="@dimen/_5sdp"
                     android:layout_height="@dimen/_26sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_168sdp"
                     app:layout_constraintEnd_toStartOf="@id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -357,7 +357,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -384,7 +384,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -392,7 +392,7 @@
                     android:id="@+id/andijon_polka_1_lya_1_to_re_2"
                     android:layout_width="@dimen/_5sdp"
                     android:layout_height="@dimen/_25sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_222sdp"
                     android:layout_marginStart="@dimen/_1sdp"
                     app:layout_constraintStart_toEndOf="@id/view_line_1_andijon_polka_1"
@@ -435,7 +435,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -457,7 +457,7 @@
                     android:id="@+id/view_line_9_andijon_polka_1"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toBottomOf="@+id/andijon_polka_1_lya_2" />
@@ -473,7 +473,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -481,7 +481,7 @@
                     android:id="@+id/andijon_polka_1_re_4_to_re_2"
                     android:layout_width="@dimen/_5sdp"
                     android:layout_height="@dimen/_26sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_268sdp"
                     app:layout_constraintEnd_toStartOf="@id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -523,7 +523,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -549,7 +549,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -557,7 +557,7 @@
                     android:id="@+id/andijon_polka_1_do_2_to_re_2"
                     android:layout_width="@dimen/_4sdp"
                     android:layout_height="@dimen/_56sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_328sdp"
                     android:layout_marginEnd="@dimen/_2sdp"
                     app:layout_constraintEnd_toStartOf="@id/view_line_5_andijon_polka_1"
@@ -567,7 +567,7 @@
                     android:id="@+id/andijon_polka_1_do_3_to_re_2"
                     android:layout_width="@dimen/_4sdp"
                     android:layout_height="@dimen/_26sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_358sdp"
                     android:layout_marginEnd="@dimen/_3sdp"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_andijon_polka_1"
@@ -609,7 +609,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -636,7 +636,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -671,7 +671,7 @@
                     android:id="@+id/view_line_10_andijon_polka_1"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toBottomOf="@+id/andijon_polka_1_mi_1" />
@@ -687,7 +687,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -695,7 +695,7 @@
                     android:id="@+id/andijon_polka_1_do_4_to_re_2"
                     android:layout_width="@dimen/_4sdp"
                     android:layout_height="@dimen/_26sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_423sdp"
                     app:layout_constraintEnd_toStartOf="@id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -737,7 +737,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -763,7 +763,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -771,7 +771,7 @@
                     android:id="@+id/andijon_polka_1_do_8_to_re_2"
                     android:layout_width="@dimen/_4sdp"
                     android:layout_height="@dimen/_26sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_481sdp"
                     android:layout_marginStart="@dimen/_2sdp"
                     app:layout_constraintStart_toEndOf="@id/view_line_1_andijon_polka_1"
@@ -813,7 +813,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -864,7 +864,7 @@
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_5sdp"
                     android:layout_marginBottom="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toTopOf="@+id/view_line_12_andijon_polka_1"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_1" />
@@ -876,7 +876,7 @@
                     android:layout_height="@dimen/_4sdp"
                     android:layout_marginTop="@dimen/_530sdp"
                     android:layout_marginBottom="@dimen/_20sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_1"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_1"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -905,7 +905,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_120sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_andijon_polka_2"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -917,7 +917,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_andijon_polka_2"
                     app:layout_constraintEnd_toStartOf="@id/view_line_1_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
@@ -929,7 +929,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_andijon_polka_2"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
@@ -941,7 +941,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_andijon_polka_2"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -952,7 +952,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_andijon_polka_2"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -967,7 +967,7 @@
                     app:layout_constraintEnd_toStartOf="@id/view_line_1_andijon_polka_2"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
 
                      />
@@ -982,7 +982,7 @@
                     app:layout_constraintEnd_toEndOf="@id/view_line_1_andijon_polka_2"
                     app:layout_constraintStart_toStartOf="@id/view_line_1_andijon_polka_2"
                     app:layout_constraintTop_toBottomOf="@id/start_not_id_2"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
 
                      />
@@ -997,7 +997,7 @@
                     android:src="@drawable/icon_hash_tag"
                     app:layout_constraintStart_toStartOf="@id/view_line_3_andijon_polka_2"
                     app:layout_constraintTop_toBottomOf="@id/hash_tag_1_id_andijon_polka_2"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
 
                      />
@@ -1012,7 +1012,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1042,7 +1042,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1052,7 +1052,7 @@
                     android:id="@+id/view_line_8_andijon_polka_2"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_2"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_2"
                     app:layout_constraintTop_toBottomOf="@+id/andijon_polka_2_fa_2" />
@@ -1067,7 +1067,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1075,7 +1075,7 @@
                     android:id="@+id/andijon_polka_2_re_1_to_re_2"
                     android:layout_width="@dimen/_4sdp"
                     android:layout_height="@dimen/_30sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_158sdp"
                     android:rotation="4"
                     android:layout_marginEnd="@dimen/_4sdp"
@@ -1119,7 +1119,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1159,7 +1159,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1167,7 +1167,7 @@
                     android:id="@+id/andijon_polka_2_re_2_to_re_2"
                     android:layout_width="@dimen/_4sdp"
                     android:layout_height="@dimen/_31sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_218sdp"
                     android:rotation="3"
                     android:layout_marginEnd="@dimen/_4sdp"
@@ -1211,7 +1211,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1247,7 +1247,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_20sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_2"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_2"
                     app:layout_constraintTop_toBottomOf="@+id/andijon_polka_2_re_1" />
@@ -1262,7 +1262,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1291,7 +1291,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1301,7 +1301,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_20sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_2"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_2"
                     app:layout_constraintTop_toBottomOf="@+id/andijon_polka_2_mi_3" />
@@ -1317,7 +1317,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1337,7 +1337,7 @@
                     android:id="@+id/andijon_polka_2_re_3_to_re_2"
                     android:layout_width="@dimen/_4sdp"
                     android:layout_height="@dimen/_31sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_398sdp"
                     android:rotation="8"
                     android:layout_marginEnd="@dimen/_6sdp"
@@ -1368,7 +1368,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1409,7 +1409,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1418,7 +1418,7 @@
                     android:id="@+id/andijon_polka_2_re_4_to_re_2"
                     android:layout_width="@dimen/_4sdp"
                     android:layout_height="@dimen/_31sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_458sdp"
                     android:rotation="8"
                     app:layout_constraintEnd_toStartOf="@id/view_line_5_andijon_polka_2"
@@ -1460,7 +1460,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_2"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1496,7 +1496,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_20sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_2"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_2"
                     app:layout_constraintTop_toBottomOf="@+id/andijon_polka_2_do_1" />
@@ -1524,7 +1524,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_120sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_andijon_polka_3"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -1536,7 +1536,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_andijon_polka_3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_1_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
@@ -1548,7 +1548,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_andijon_polka_3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_2_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
@@ -1560,7 +1560,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_andijon_polka_3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_3_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1571,7 +1571,7 @@
                     android:layout_height="0dp"
                     android:layout_marginTop="@dimen/_25sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintBottom_toBottomOf="@+id/view_line_11_andijon_polka_3"
                     app:layout_constraintEnd_toStartOf="@id/view_line_4_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -1586,7 +1586,7 @@
                     app:layout_constraintEnd_toStartOf="@id/view_line_1_andijon_polka_3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
 
                     />
@@ -1601,7 +1601,7 @@
                     app:layout_constraintEnd_toEndOf="@id/view_line_1_andijon_polka_3"
                     app:layout_constraintStart_toStartOf="@id/view_line_1_andijon_polka_3"
                     app:layout_constraintTop_toBottomOf="@id/start_not_id_3"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
 
                     />
@@ -1616,7 +1616,7 @@
                     android:src="@drawable/icon_hash_tag"
                     app:layout_constraintStart_toStartOf="@id/view_line_3_andijon_polka_3"
                     app:layout_constraintTop_toBottomOf="@id/hash_tag_1_id_andijon_polka_3"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
 
                     />
@@ -1631,7 +1631,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1661,7 +1661,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1671,7 +1671,7 @@
                     android:id="@+id/view_line_8_andijon_polka_3"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_3"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_3"
                     app:layout_constraintTop_toBottomOf="@+id/andijon_polka_3_fa_2" />
@@ -1686,7 +1686,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_3_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1694,7 +1694,7 @@
                     android:id="@+id/andijon_polka_3_re_1_to_re_2"
                     android:layout_width="@dimen/_4sdp"
                     android:layout_height="@dimen/_30sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_158sdp"
                     android:rotation="4"
                     android:layout_marginEnd="@dimen/_4sdp"
@@ -1738,7 +1738,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1778,7 +1778,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1786,7 +1786,7 @@
                     android:id="@+id/andijon_polka_3_re_2_to_re_2"
                     android:layout_width="@dimen/_4sdp"
                     android:layout_height="@dimen/_31sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_218sdp"
                     android:rotation="3"
                     android:layout_marginEnd="@dimen/_4sdp"
@@ -1830,7 +1830,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1866,7 +1866,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_20sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_3"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_3"
                     app:layout_constraintTop_toBottomOf="@+id/andijon_polka_3_re_1" />
@@ -1881,7 +1881,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1910,7 +1910,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1920,7 +1920,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_20sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_3"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_3"
                     app:layout_constraintTop_toBottomOf="@+id/andijon_polka_3_mi_3" />
@@ -1936,7 +1936,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -1956,7 +1956,7 @@
                     android:id="@+id/andijon_polka_3_re_3_to_re_2"
                     android:layout_width="@dimen/_4sdp"
                     android:layout_height="@dimen/_31sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_398sdp"
                     android:rotation="8"
                     android:layout_marginEnd="@dimen/_6sdp"
@@ -1987,7 +1987,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -2028,7 +2028,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_5_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -2037,7 +2037,7 @@
                     android:id="@+id/andijon_polka_3_re_4_to_re_2"
                     android:layout_width="@dimen/_4sdp"
                     android:layout_height="@dimen/_31sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     android:layout_marginTop="@dimen/_458sdp"
                     android:rotation="-8"
                     app:layout_constraintEnd_toStartOf="@id/view_line_5_andijon_polka_3"
@@ -2079,7 +2079,7 @@
                     android:src="@drawable/icon_gamma3"
                     app:layout_constraintStart_toEndOf="@id/view_line_4_andijon_polka_3"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white"
+                    app:tint="#FFFFFF"
                     tools:ignore="ContentDescription"
                     />
 
@@ -2115,7 +2115,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginTop="@dimen/_20sdp"
-                    android:background="@color/white"
+                    android:background="#FFFFFF"
                     app:layout_constraintEnd_toStartOf="@+id/view_line_1_andijon_polka_3"
                     app:layout_constraintStart_toEndOf="@+id/view_line_5_andijon_polka_3"
                     app:layout_constraintTop_toBottomOf="@+id/andijon_polka_3_mi_5" />
@@ -2128,17 +2128,17 @@
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="@string/andijon_polka"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:textAlignment="center"
-            android:layout_marginEnd="-55dp"
-            android:rotation="90"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
             android:fontFamily="@font/playfair_display"
+            android:rotation="90"
+            android:text="@string/andijon_polka"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
             android:textSize="@dimen/_17ssp"
-            />
+            android:layout_marginStart="@dimen/_30sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/allegretto"
+            app:layout_constraintStart_toStartOf="@+id/allegretto"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/allegretto"
@@ -2147,7 +2147,7 @@
             android:text="@string/allegro"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:textColor="@color/white"
+            android:textColor="#FFFFFF"
             android:rotation="90"
             android:layout_marginEnd="@dimen/_25sdp"
             android:fontFamily="@font/playfair_display"
@@ -2159,18 +2159,18 @@
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/o_zbek_xalq_kuyi"
-            app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="@dimen/_320sdp"
-            android:textColor="@color/white"
-            android:rotation="90"
-            android:fontFamily="@font/playfair_display"
-            android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@id/allegretto"
-            android:textSize="@dimen/_13ssp"
             android:layout_marginBottom="@dimen/_70sdp"
+            android:fontFamily="@font/playfair_display"
+            android:rotation="90"
+            android:text="@string/o_zbek_xalq_kuyi"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            />
+            app:layout_constraintEnd_toEndOf="@+id/allegretto"
+            app:layout_constraintStart_toStartOf="@+id/allegretto"
+            app:layout_constraintTop_toBottomOf="@id/allegretto" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -2194,7 +2194,7 @@
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginEnd="@dimen/_6sdp"
         android:layout_marginBottom="@dimen/_20sdp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
         app:layout_constraintEnd_toStartOf="@+id/view_line_rubob_2"
         app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />
@@ -2206,7 +2206,7 @@
         android:layout_marginStart="-5dp"
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_20sdp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
         app:layout_constraintEnd_toEndOf="@+id/imageView_rubob_tors"
         app:layout_constraintStart_toStartOf="@+id/imageView_rubob_tors"
@@ -2219,7 +2219,7 @@
         android:layout_marginStart="@dimen/_6sdp"
         android:layout_marginTop="@dimen/_15sdp"
         android:layout_marginBottom="@dimen/_20sdp"
-        android:background="@android:color/white"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView_rubob_tors"
         app:layout_constraintStart_toEndOf="@+id/view_line_rubob_2"
         app:layout_constraintTop_toTopOf="@+id/imageView_rubob_tors" />
@@ -3140,6 +3140,8 @@
         android:scaleX="0.7"
         android:scaleY="0.7"
         android:text="@string/play"
+        android:textColor="#FFFFFF"
+        app:iconTint="#FFFFFF"
         app:icon="@drawable/icon_play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -3157,6 +3159,8 @@
         android:scaleX="0.7"
         android:scaleY="0.7"
         android:text="@string/original"
+        app:iconTint="#FFFFFF"
+        android:textColor="#FFFFFF"
         app:icon="@drawable/icon_play"
         android:layout_marginTop="@dimen/_60sdp"
         app:layout_constraintStart_toStartOf="parent"
