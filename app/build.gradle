@@ -6,14 +6,14 @@ plugins {
 
 android {
     namespace 'com.raqamlidunyo.qashqarrubob'
-    compileSdk 32
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.raqamlidunyo.qashqarrubob"
         minSdk 21
-        targetSdk 32
-        versionCode 6
-        versionName "1.5"
+        targetSdk 35
+        versionCode 7
+        versionName "1.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -25,43 +25,42 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '17'
+    }
+    packagingOptions {
+        resources {
+            excludes += ['META-INF/DEPENDENCIES', 'META-INF/LICENSE*', 'META-INF/NOTICE*']
+        }
     }
 }
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.7.0'
-    implementation 'androidx.appcompat:appcompat:1.5.1'
-    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
 
-    //SSP for text size
-    def ssp_version = "1.1.0"
-    implementation "com.intuit.ssp:ssp-android:$ssp_version"
+    // Matn o'lchami uchun SSP
+    implementation "com.intuit.ssp:ssp-android:1.1.0"
+    // Boshqa komponentlar uchun SDP
+    implementation "com.intuit.sdp:sdp-android:1.1.0"
 
-    //Sdp for other components
-    def sdp_version = "1.1.0"
-    implementation "com.intuit.sdp:sdp-android:$ssp_version"
-
-
-    def nav_version = "2.5.3"
+    def nav_version = "2.7.7"
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
-
-    // Feature module Support
     implementation "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
 
-    implementation 'com.google.android.exoplayer:exoplayer:2.8.4'
-
-
-
-
+    // Media3 (eski ExoPlayer 2 o'rniga)
+    def media3_version = "1.4.1"
+    implementation "androidx.media3:media3-exoplayer:$media3_version"
+    implementation "androidx.media3:media3-ui:$media3_version"
 }

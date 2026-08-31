@@ -35,7 +35,7 @@
                 />
 
 
-            <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+            <androidx.media3.ui.PlayerView
                 android:id="@+id/video_player_1"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_167sdp"
@@ -99,7 +99,7 @@
                 android:background="@drawable/video_bg_layout"
                 />
 
-            <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+            <androidx.media3.ui.PlayerView
                 android:id="@+id/video_player_2"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_167sdp"

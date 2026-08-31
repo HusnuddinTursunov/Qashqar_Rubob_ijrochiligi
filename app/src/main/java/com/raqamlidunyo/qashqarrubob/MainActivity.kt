@@ -1,13 +1,14 @@
 package com.raqamlidunyo.qashqarrubob
 
-import android.os.Build
 import android.os.Bundle
 import android.view.View
-import android.view.WindowInsetsController
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.widget.Toolbar
-import androidx.core.content.ContextCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.updatePadding
 import androidx.navigation.NavController
 import androidx.navigation.NavDestination
 import androidx.navigation.fragment.NavHostFragment
@@ -31,29 +32,33 @@ class MainActivity : AppCompatActivity(), NavController.OnDestinationChangedList
         val navController = navHostFragment.navController
         NavigationUI.setupWithNavController(toolbar,navController)
         navController.addOnDestinationChangedListener(this)
-        changeStatusBarColor()
+        applyWindowInsets()
     }
 
 
 
-    protected fun changeStatusBarColor() {
+    /**
+     * Android 15+ (targetSdk 35) da ilova "edge-to-edge" rejimda ochiladi.
+     * Tizim panellari (status bar / navigation bar) balandligini root layoutga
+     * padding qilib beramiz, aks holda kontent ular ostida qolib ketadi.
+     */
+    private fun applyWindowInsets() {
+        val root = findViewById<View>(R.id.root_layout)
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            window.insetsController?.setSystemBarsAppearance(
-                WindowInsetsController.APPEARANCE_LIGHT_STATUS_BARS,
-                WindowInsetsController.APPEARANCE_LIGHT_STATUS_BARS)
+        // Status bar belgilari (soat, batareya) och rangda bo'lsin — fon to'q jigarrang
+        WindowCompat.getInsetsController(window, root).isAppearanceLightStatusBars = false
 
-            window.statusBarColor = ContextCompat.getColor(this, R.color.brown_dark_bg)
-
-        } else {
-            @Suppress("DEPRECATION")
-            window.decorView.systemUiVisibility = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                0 or 0
-            } else {
-                View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
-            }
-            window.statusBarColor = ContextCompat.getColor(this, R.color.brown_dark_bg)
-
+        ViewCompat.setOnApplyWindowInsetsListener(root) { v, insets ->
+            val bars = insets.getInsets(
+                WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout()
+            )
+            v.updatePadding(
+                left = bars.left,
+                top = bars.top,
+                right = bars.right,
+                bottom = bars.bottom
+            )
+            insets
         }
     }
 

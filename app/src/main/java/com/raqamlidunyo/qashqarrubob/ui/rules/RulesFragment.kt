@@ -2,39 +2,39 @@ package com.raqamlidunyo.qashqarrubob.ui.rules
 
 import android.net.Uri
 import android.os.Bundle
-import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import com.raqamlidunyo.qashqarrubob.R
-import com.google.android.exoplayer2.ExoPlayerFactory
-import com.google.android.exoplayer2.Player
-import com.google.android.exoplayer2.SimpleExoPlayer
-import com.google.android.exoplayer2.source.ExtractorMediaSource
-import com.google.android.exoplayer2.trackselection.DefaultTrackSelector
-import com.google.android.exoplayer2.ui.SimpleExoPlayerView
-import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
-import com.google.android.exoplayer2.util.Util
+import androidx.annotation.OptIn
+import androidx.fragment.app.Fragment
+import androidx.media3.common.MediaItem
+import androidx.media3.common.Player
+import androidx.media3.common.util.UnstableApi
+import androidx.media3.exoplayer.ExoPlayer
+import androidx.media3.ui.PlayerView
 import com.google.android.material.card.MaterialCardView
+import com.raqamlidunyo.qashqarrubob.R
 
+@OptIn(UnstableApi::class)
 class RulesFragment : Fragment() {
 
-    private lateinit var exoPlayer_1: SimpleExoPlayerView
-    private lateinit var exoPlayer_2: SimpleExoPlayerView
+    private lateinit var exoPlayer_1: PlayerView
+    private lateinit var exoPlayer_2: PlayerView
     private lateinit var mcv_video_player_1: MaterialCardView
     private lateinit var mcv_video_player_2: MaterialCardView
     private lateinit var imv_play_video_1: ImageView
     private lateinit var imv_play_video_2: ImageView
-    private lateinit var simpleExoPlayer_1: SimpleExoPlayer
-    private lateinit var simpleExoPlayer_2: SimpleExoPlayer
+    private lateinit var simpleExoPlayer_1: ExoPlayer
+    private lateinit var simpleExoPlayer_2: ExoPlayer
+
+    private val video = "file:///android_asset/Qo’l bilan tutish holati.mp4"
+    private val video_2 = "file:///android_asset/Ko’krak qafasida tutish.mp4"
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_rules, container, false)
     }
 
@@ -48,16 +48,16 @@ class RulesFragment : Fragment() {
         imv_play_video_1 = view.findViewById(R.id.imv_video_play_1)
         imv_play_video_2 = view.findViewById(R.id.imv_video_play_2)
 
-        val trackerSelector = DefaultTrackSelector()
-        simpleExoPlayer_1 = ExoPlayerFactory.newSimpleInstance(view.context, trackerSelector)
-        simpleExoPlayer_2 = ExoPlayerFactory.newSimpleInstance(view.context, trackerSelector)
+        simpleExoPlayer_1 = ExoPlayer.Builder(requireContext()).build()
+        simpleExoPlayer_2 = ExoPlayer.Builder(requireContext()).build()
+
+        simpleExoPlayer_1.repeatMode = Player.REPEAT_MODE_ONE
+        simpleExoPlayer_2.repeatMode = Player.REPEAT_MODE_ONE
 
         exoPlayer_1.player = simpleExoPlayer_1
         exoPlayer_1.useController = false
-
         exoPlayer_2.player = simpleExoPlayer_2
         exoPlayer_2.useController = false
-
 
         mcv_video_player_1.setOnClickListener {
             if (simpleExoPlayer_1.playWhenReady) {
@@ -68,12 +68,10 @@ class RulesFragment : Fragment() {
                 simpleExoPlayer_2.playWhenReady = false
                 imv_play_video_1.visibility = View.INVISIBLE
                 imv_play_video_2.visibility = View.VISIBLE
-
             }
         }
 
         mcv_video_player_2.setOnClickListener {
-
             if (simpleExoPlayer_2.playWhenReady) {
                 simpleExoPlayer_2.playWhenReady = false
                 imv_play_video_2.visibility = View.VISIBLE
@@ -82,61 +80,32 @@ class RulesFragment : Fragment() {
                 simpleExoPlayer_1.playWhenReady = false
                 imv_play_video_2.visibility = View.INVISIBLE
                 imv_play_video_1.visibility = View.VISIBLE
-
-
             }
         }
 
-        simpleExoPlayer_1.addListener(object : Player.DefaultEventListener(){
-            override fun onPlayerStateChanged(playWhenReady: Boolean, playbackState: Int) {
-                super.onPlayerStateChanged(playWhenReady, playbackState)
-                when(playbackState)
-                {
-                    Player.STATE_ENDED ->{
-                        simpleExoPlayer_1.seekTo(0)
-                    }
-                }
-            }
-        })
-
-        simpleExoPlayer_2.addListener(object : Player.DefaultEventListener(){
-            override fun onPlayerStateChanged(playWhenReady: Boolean, playbackState: Int) {
-                super.onPlayerStateChanged(playWhenReady, playbackState)
-                when(playbackState)
-                {
-                    Player.STATE_ENDED ->{
-                        simpleExoPlayer_2.seekTo(0)
-                    }
-                }
-            }
-        })
-
-
-        val video = "file:///android_asset/Qo’l bilan tutish holati.mp4"
-        val video_2 = "file:///android_asset/Ko’krak qafasida tutish.mp4"
-        val url =
-            "https://go.wootly.ch/dash?source=web&id=939515a74959c481bbc1d171edf4f293b6bfe58c&sig=qFmC72AVJVNtPt-nGTcZDg&expire=1668669698&ofs=12&usr=115875"
-
-
-        playVideos(simpleExoPlayer_1, video_2)
-        playVideos(simpleExoPlayer_2, video)
+        prepare(simpleExoPlayer_1, video_2)
+        prepare(simpleExoPlayer_2, video)
     }
 
-    private fun playVideos(simpleExoPlayer: SimpleExoPlayer?, video: String) {
-        val dataSourceFactory =
-            DefaultDataSourceFactory(view?.context, Util.getUserAgent(view?.context, "VideoName"))
-        val mediaSource =
-            ExtractorMediaSource.Factory(dataSourceFactory).createMediaSource(Uri.parse(video)  )
-        simpleExoPlayer?.prepare(mediaSource)
+    private fun prepare(player: ExoPlayer, videoUri: String) {
+        player.setMediaItem(MediaItem.fromUri(Uri.parse(videoUri)))
+        player.prepare()
+        player.playWhenReady = false
+    }
 
+    override fun onPause() {
+        super.onPause()
+        simpleExoPlayer_1.playWhenReady = false
+        simpleExoPlayer_2.playWhenReady = false
+        imv_play_video_1.visibility = View.VISIBLE
+        imv_play_video_2.visibility = View.VISIBLE
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
-        simpleExoPlayer_1.playWhenReady = false
-        simpleExoPlayer_2.playWhenReady = false
-        Log.d("Rules", "onDestroyView: ")
+        exoPlayer_1.player = null
+        exoPlayer_2.player = null
+        simpleExoPlayer_1.release()
+        simpleExoPlayer_2.release()
     }
-
-
 }
