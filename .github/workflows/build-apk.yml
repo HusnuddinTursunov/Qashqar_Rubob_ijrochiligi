@@ -1,0 +1,42 @@
+name: APK yig'ish
+
+on:
+  push:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Kodni olish
+        uses: actions/checkout@v4
+
+      - name: JDK 17 o'rnatish
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: gradle
+
+      - name: gradlew ga ruxsat berish
+        run: chmod +x ./gradlew
+
+      - name: Debug APK yig'ish
+        run: ./gradlew assembleDebug --stacktrace
+
+      - name: Release APK yig'ish (imzosiz)
+        run: ./gradlew assembleRelease --stacktrace
+
+      - name: Debug APK ni yuklash
+        uses: actions/upload-artifact@v4
+        with:
+          name: QashqarRubob-debug-apk
+          path: app/build/outputs/apk/debug/*.apk
+
+      - name: Release APK ni yuklash
+        uses: actions/upload-artifact@v4
+        with:
+          name: QashqarRubob-release-unsigned-apk
+          path: app/build/outputs/apk/release/*.apk
